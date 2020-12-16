@@ -1,45 +1,152 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+This is a travel website about Vietnam. It is designed to be eye pleasing while also providing the user with valuable
+information about different places in Vietnam.  
 
-Welcome USER_NAME,
+# UX
+## Contents
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+---
 
-## Gitpod Reminders
+- [UX](#ux)
+  - [User Stories](#user-stories)
+  - [Site Owner Goals](#goals)
+  - [User Requirements and Expectations](#user-requirements)
+  - [Design Choices](#design-choices)
+    - Fonts
+    - Icons
+    - Colours
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## <a name="ux">UX</a>
 
-`python3 -m http.server`
+---
 
-A blue button should appear to click: *Make Public*,
+### <a name="user-stories">User Stories</a>
 
-Another blue button should appear to click: *Open Browser*.
+1. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+### <a name="goals">Site Owner Goals</a>
 
-Another blue button should appear to click: *Open Browser*.
+1. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+## <a name="user-requirements">User Requirements and Expectations</a>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+---
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Requirements
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Expectations
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## <a name="design-choices">Design Choices</a>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+---
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Fonts
 
---------
 
-Happy coding!
+
+### Colours
+
+- 
+
+### Icons
+
+
+## <a name="wireframes">Wireframes</a>
+
+---
+
+### Original Wireframes
+
+
+
+#### Changes to Original Wireframes
+
+
+
+
+## <a name="features">Features</a>
+
+---
+
+
+
+## <a name="technologies">Technologies</a>
+
+---
+
+### Languages
+
+- 
+
+### Other
+
+- [Tiny PNG](https://tinypng.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Ucraft](https://www.ucraft.com/free-logo-maker)
+- [Bootstrap 4.5](https://getbootstrap.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [Github](https://github.com/)
+- [Gitpod](https://www.gitpod.io/)
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+- [WebFormatter](https://webformatter.com/html)
+
+
+## <a name="testing">Testing</a>
+
+---
+
+
+
+## <a name="bugs">Bugs</a>
+
+---
+
+1. 
+
+## <a name="deployment">Deployment</a>
+
+---
+
+To deploy this project from its GitHub repository to GitHub Pages the following steps were taken:
+1. From the projects repository I clicked on **Settings**.
+2. I then scrolled down to the **GitHub Pages** section.
+3. Within **Source** I clicked on the **Branch** button and I chose **Master** in the dropdown menu.
+4. I then clicked **Save** and refreshed the page. At that point my website was deployed.
+5. I scrolled down to the **GitHub Pages** section again to retrieve the link.
+## <a name="credits">Credits</a>
+
+---
+
+### Credits for Fonts
+
+- [Google Fonts](https://fonts.google.com)
+- [Font Pair](https://fontpair.co/)
+
+### Media
+
+1. 
+
+
+### Code 
+1. 
+
+### Content
+
+
+## <a name="acknowledgements">Acknowledgements</a>
+
+- 
