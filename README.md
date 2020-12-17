@@ -138,11 +138,15 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 
 ### Media
 
-1. 
+- The hero image was found on [Unsplash](https://unsplash.com) and was taken by Ammie Ngo.
+- The image for the Hanoi was found on [Unsplash](https://unsplash.com) and was taken by Chor Tsang
+- The image for the Hoi An was found on [Unsplash](https://unsplash.com) and was taken by Jack Hunter
 
 
 ### Code 
-1. 
+
+1. [Bootstrap](https://getbootstrap.com/) - The code for the navbar was found [here](https://getbootstrap.com/docs/4.0/components/navbar/).
+2. The code for the horizontal scrolling cards was found [here](https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6).
 
 ### Content
 

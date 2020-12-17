@@ -1,3 +1,29 @@
+/*--------------------Body */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');/*--------------------Containers */
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Lora", sans-serif;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
 /*--------------------Images */
 .hero-image {
   height: 110vh;
@@ -10,4 +36,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
 }
