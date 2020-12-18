@@ -41,4 +41,12 @@ h4 {
 .card-img {
     width: 100%;
     height: auto;
+    margin: 0;
+}
+
+/*---------------------Maps Container */
+
+.maps {
+    height: 300px;
+    width: 300px;
 }
