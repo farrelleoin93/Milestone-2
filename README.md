@@ -147,7 +147,8 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 
 1. [Bootstrap](https://getbootstrap.com/) - The code for the navbar was found [here](https://getbootstrap.com/docs/4.0/components/navbar/).
 2. The code for the horizontal scrolling cards was found [here](https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6).
-
+3. The code for the maps were found [here](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-css).
+4. The code for the form was taken from my first milestone project and can be found [here](https://github.com/farrelleoin93/Milestone-1-Recipe-Site/blob/master/contact.html).
 ### Content
 
 
