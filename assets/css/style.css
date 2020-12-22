@@ -82,3 +82,26 @@ h2 {
     height: 300px;
     width: 300px;
 }
+
+/*---------------------Footer */
+
+footer {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    color: #fff;
+    font-size: 20px;;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
