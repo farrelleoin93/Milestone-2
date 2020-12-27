@@ -76,6 +76,19 @@ h2 {
     margin: 0;
 }
 
+/*---------------------Cards Container */
+
+.card {
+    flex: 0 0 auto;
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card p {
+    margin: 10px;
+}
+
 /*---------------------Maps Container */
 
 .maps {
