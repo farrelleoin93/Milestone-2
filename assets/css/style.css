@@ -61,6 +61,8 @@ h2 {
     width: 30%;
     margin-left: 10px;
     margin-right: 10px;
+    background: black;
+    overflow: hidden;
 }
 
 .city-description {
@@ -87,15 +89,22 @@ h2 {
     width: 100%;
     height: auto;
     margin: 0;
+    object-fit: cover;
+    opacity: 0.4;
 }
 
 /*---------------------Cards Container */
 
 .card {
+    display: flex;
     flex: 0 0 auto;
     width: 20%;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.card h2 {
+    align-content: center;
 }
 
 .card p {

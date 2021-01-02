@@ -139,8 +139,9 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 ### Media
 
 - The hero image was found on [Unsplash](https://unsplash.com) and was taken by Ammie Ngo.
-- The image for the Hanoi was found on [Unsplash](https://unsplash.com) and was taken by Chor Tsang
-- The image for the Hoi An was found on [Unsplash](https://unsplash.com) and was taken by Jack Hunter
+- The image for the Hanoi card was found on [Unsplash](https://unsplash.com) and was taken by Chor Tsang.
+- The image for the Hoi An card was found on [Unsplash](https://unsplash.com) and was taken by Jack Hunter.
+- The image for the Halong Bay card was found on [Unsplash](https://unsplash.com) and was taken by Steven Lasry.
 
 
 ### Code 
