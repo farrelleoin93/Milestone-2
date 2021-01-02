@@ -111,6 +111,19 @@ h2 {
     margin: 10px;
 }
 
+/*---------------------Choices Section */
+
+.choices {
+    background-color: #ff6600;
+    width: 100%;
+    min-height: 100px;
+}
+
+.choices ul {
+    justify-content: center;
+    width: 70%;
+}
+
 /*---------------------Maps Container */
 
 .maps {
