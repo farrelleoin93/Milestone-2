@@ -6,6 +6,19 @@ body {
     height: 100%;
 }
 
+.site {
+    display: flex;
+    flex-direction: column;
+} 
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
 /*--------------------Headings */
 
 h1,
@@ -106,15 +119,22 @@ footer {
 .footer-items {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
-.icon {
+footer .icon {
     color: #fff;
-    font-size: 20px;;
+    font-size: 20px;
+    margin: 10px 5px;
+
 }
 
 .social-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+ul {
+    list-style: none;
 }
