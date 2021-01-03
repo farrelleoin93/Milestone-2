@@ -29,12 +29,22 @@ information about different places in Vietnam.
 
 ### <a name="user-stories">User Stories</a>
 
-1. 
+1. As a user, I want to understand what the site is for.
+2. As a user, I want to be able to easily navigate through the site even on my first visit.
+3. As a user, I want to be able to find interesting places to visit.
+4. As a user, I want to be able to easily find things to do and places to eat in each place.
+5. As a user, I want to be able to see useful information about flights to the places in the features on the website or else information about weather in these places.
+6. As a user, I want to be able to see where all the places mentioned on the website are.
+7. As a user, I want to be able to easily contact the owner of the website.
 
 
 ### <a name="goals">Site Owner Goals</a>
 
-1. 
+1. As a site owner, I want to be able to inspire people to go and travel and experience a different culture.
+2. As a site owner, I want to be able to supply the visitors of this site with fun and interesting things to do as well as nice places to eat.
+3. As a site owner, I want to be able to supply users with external information such flight details or weather.
+4. As a site owner, I want people to be able to contact me if they have any questions they want to ask or information about their travels that they would like to share. 
+5. As a site owner, I want to increase the volume of people that visit this website over time.
 
 
 ## <a name="user-requirements">User Requirements and Expectations</a>
@@ -43,11 +53,19 @@ information about different places in Vietnam.
 
 ### Requirements
 
-- 
+- The user should be presented with a visually appealing website.
+- The user should be able to clearly navigate through the website even on their first visit.
+- The user should be provided with helpful information about different places in Vietnam.
+- The user should be able to view where these places are located on a map.
+- The site should have a working contact form.
+
 
 ### Expectations
 
-- 
+- The website should be visually pleasing and easy to understand.
+- The website should be informative.
+- The website should have a working navbar that leads them to the area of the website that they want.
+- The website should have pictures and information that will accurately show and describe different places in Vietnam.
 
 ## <a name="design-choices">Design Choices</a>
 
@@ -55,11 +73,13 @@ information about different places in Vietnam.
 
 ### Fonts
 
-
+For this website I have decided to use [Lora](https://fonts.google.com/specimen/Lora?query=lor) for all the headings throughout the site with a font weight of 600 to make them stand out
+slightly more than the rest of the text. I used [Roboto](https://fonts.google.com/specimen/Roboto?query=rob) for the paragraghs of the website.
 
 ### Colours
 
-- 
+- The colours that I used for this website are Orange(#ff6600) and White(#fff). The Orange is used for the header and footer as well as for some bouttons and cards thoughout the website.
+I choose these colours as I felt that the orange was warm and inviting and I felt that the white was a nice contrast to the orange.
 
 ### Icons
 
