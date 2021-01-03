@@ -50,27 +50,6 @@ h2 {
     color: #fff;
 }
 
-.scrolling-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-}
-
-.card {
-    flex: 0 0 auto;
-    width: 30%;
-    margin-left: 10px;
-    margin-right: 10px;
-    background: black;
-    overflow: hidden;
-}
-
-.city-description {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-}
-
 /*--------------------Images */
 .hero-image {
   height: 110vh;
@@ -98,10 +77,12 @@ h2 {
 .card {
     display: flex;
     flex: 0 0 auto;
-    width: 20%;
+    width: 22%;
     margin-left: 10px;
     margin-right: 10px;
+    overflow: hidden;
     position: relative;
+    background: black;
 }
 
 .card h2 {
@@ -145,6 +126,20 @@ h2 {
 .vl {
     border-left: 4px solid #fff;
     height: 75px;
+}
+
+/*---------------------City Description Section */
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.city-description {
+    display: flex;
+    width: 50%;
+    justify-content: center;
 }
 
 /*---------------------Maps Container */
