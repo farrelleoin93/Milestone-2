@@ -138,8 +138,14 @@ h2 {
 
 .city-description {
     display: flex;
-    width: 50%;
     justify-content: center;
+    text-align: center;
+}
+
+.city-description p {
+    width: 50%;
+    font-size: 20px;
+    padding-bottom: 30px;
 }
 
 /*---------------------Maps Container */
