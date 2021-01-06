@@ -113,6 +113,12 @@ h2 {
     padding: 15px;
 }
 
+/*---------------------Cities Section */
+
+#hanoi {
+    display: none;
+}
+
 /*---------------------Choices Section */
 
 .choices {
