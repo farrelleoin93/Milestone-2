@@ -149,6 +149,21 @@ h2 {
     height: 75px;
 }
 
+/*---------------------Hanoi Choices Section */
+
+#hanoi-activities-info {
+    display: none;
+}
+
+#hanoi-restaurants-info {
+    display: none;
+}
+
+#hanoi-culture-info {
+    display: none;
+}
+
+
 /*---------------------City Description Section */
 
 .scrolling-wrapper {
