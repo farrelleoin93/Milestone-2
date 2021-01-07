@@ -79,6 +79,11 @@ h2 {
 
 /*---------------------Cards Container */
 
+.cities {
+    display: flex;
+    justify-content: space-around;
+}
+
 .card {
     display: flex;
     flex: 0 0 auto;
