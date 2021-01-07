@@ -1,6 +1,8 @@
 This is a travel website about Vietnam. It is designed to be eye pleasing while also providing the user with valuable
 information about different places in Vietnam.  
 
+You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/)
+
 # UX
 ## Contents
 
