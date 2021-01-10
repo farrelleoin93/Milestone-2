@@ -133,15 +133,13 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 
 .choices-items {
     padding: 0px 60px;
 }
 
-.choices a {
-    color: #fff;
-}
 
 .choices .icon {
     font-size: 35px;
@@ -153,21 +151,6 @@ h2 {
     border-left: 4px solid #fff;
     height: 75px;
 }
-
-/*---------------------Hanoi Choices Section */
-
-#hanoi-activities-info {
-    display: none;
-}
-
-#hanoi-restaurants-info {
-    display: none;
-}
-
-#hanoi-culture-info {
-    display: none;
-}
-
 
 /*---------------------City Description Section */
 
