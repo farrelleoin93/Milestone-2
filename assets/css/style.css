@@ -136,6 +136,10 @@ h2 {
     color: #fff;
 }
 
+.choices a {
+   color: #fff ;
+}
+
 .choices-items {
     padding: 0px 60px;
 }
