@@ -2,7 +2,22 @@
 $(document).ready(function(){
   $("#hanoi-info").click(function(){
     $("#hanoi").show();
+    $("#sapa").hide();
+    $("#hoi-an").hide();
   });
+
+  $("#sapa-info").click(function(){
+    $("#sapa").show();
+    $("#hanoi").hide();
+    $("#hoi-an").hide();
+  });
+
+  $("#hoi-an-info").click(function(){
+    $("#hoi-an").show();
+    $("#sapa").hide();
+    $("#hanoi").hide();
+  });
+
   
 //------------------------------ Show hanoi options information
 
