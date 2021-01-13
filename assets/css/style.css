@@ -112,6 +112,9 @@ h2 {
     width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-option p {
@@ -212,13 +215,22 @@ form {
     text-align: center;
 }
 
+form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 button {
     background-color: #ff6600;
     color: #fff;
     border-color: #ff6600;
     border-radius: 3px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 20px;
+}
+
+form button {
+    width: 200px;
 }
 
 /*---------------------Footer */
