@@ -14,4 +14,32 @@ function initMap() {
 
     mapOptions.center = new google.maps.LatLng(15.880314, 108.339319); // hoi-an
     map2 = new google.maps.Map(document.getElementById("map-hoi-an"), mapOptions);
+
+    var request = {
+    location: map1.getCenter(),
+    radius: 8047,
+    types: ['cafe']
+  }
+
+  var service = new google.maps.places.PlacesService(map1);
+
+  service.nearbySearch(request, callback);
+}
+
+function callback(results, status) {
+  if (status == google.maps.places.PlacesServiceStatus.OK) {
+    console.log(results.length);
+    for (var i = 0; i < results.length; i++) {
+      createMarker(results[i]);
+    }
+  }
+}
+
+function createMarker(place) {
+  var placeLoc = place.geometry.location;
+  var marker = new google.maps.Marker({
+    map: map1,
+    position: place.geometry.location,
+    title: place.name
+  })
 }
