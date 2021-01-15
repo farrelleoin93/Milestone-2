@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_bb4xdCXZSX4M89EM712oR");
+        })();
+    </script>
 
     <title>Discover Vietnam</title>
 </head>
 
 <body class="site">
     <header>
-    <!--Start of navbar-->
+        <!--Start of navbar-->
         <div id="home">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">Discover Vietnam</a>
@@ -40,7 +46,7 @@
         </div>
         <!--End of navbar-->
     </header>
-        <!--Start of Hero Image-->
+    <!--Start of Hero Image-->
     <section>
         <div class="container-fluid">
             <div class="row">
@@ -131,7 +137,7 @@
                     <div id="map-hanoi" class="maps"></div>
                 </div>
                 <!--End of Hanoi Map-->
-             
+
                 <!--Start of Hanoi Top 3 Picks-->
                 <div id="hanoi-activities-info">
                     <h2>Our Top 3 Picks</h2>
@@ -376,7 +382,7 @@
     <section id="contact">
         <div class="col-12 form-container">
             <h2>Contact Us!</h2>
-            <form>
+            <form id="contactForm" onsubmit="return sendMail(this);">
                 <input type="text" name="name" id="fullname" placeholder="Your Full Name" class="form-control"
                     required />
                 <input type="email" name="email" id="emailaddress" placeholder="Email Address" class="form-control"
@@ -384,7 +390,7 @@
                 <textarea rows="8" name="message" id="message" placeholder="Message" class="form-control"
                     required></textarea>
                 <div class="form-button">
-                    <button type="submit">Send</button>
+                    <button type="submit" id="send-button">Send</button>
                 </div>
             </form>
         </div>
@@ -428,6 +434,7 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUMNpRU3nmT7MY8vDqFn1BxI4cMk8XF8g&callback=initMap&libraries=places"></script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/sendemail.js"></script>
 </body>
 
 </html>
