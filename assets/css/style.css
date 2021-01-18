@@ -4,6 +4,8 @@
 body {
     font-family: "Roboto", sans-serif;
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .site {
@@ -92,7 +94,6 @@ h2 {
 .cities {
     display: flex;
     justify-content: space-around;
-    overflow-x: hidden;
 }
 
 .card {
