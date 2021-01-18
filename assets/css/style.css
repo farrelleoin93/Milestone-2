@@ -77,6 +77,16 @@ h2 {
     height: auto;
 }
 
+.hero-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+} 
+
 /*---------------------Cards Container */
 
 .cities {
