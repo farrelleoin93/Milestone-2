@@ -92,6 +92,7 @@ h2 {
 .cities {
     display: flex;
     justify-content: space-around;
+    overflow-x: hidden;
 }
 
 .card {
