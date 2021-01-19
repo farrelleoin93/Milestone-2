@@ -50,22 +50,22 @@ const placeNamesIdentifiers = ['hanoi', 'sapa', 'hoi-an'];
 placeNamesIdentifiers.forEach((eachPlaceIdentifier) => {
  $("#" + eachPlaceIdentifier + "-bars").click(function(){
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-        displayLocationsOfType(mapInstance, ['bars']);
+        displayLocationsOfType(mapInstance, ['bar']);
   });
    $("#" + eachPlaceIdentifier + "-restaurants").click(function(){
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-        displayLocationsOfType(mapInstance, ['restaurants']);
+        displayLocationsOfType(mapInstance, ['restaurant']);
   });
      $("#" + eachPlaceIdentifier + "-cafes").click(function(){
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-        displayLocationsOfType(mapInstance, ['cafes']);
+        displayLocationsOfType(mapInstance, ['cafe']);
   });
      $("#" + eachPlaceIdentifier + "-hotels").click(function(){
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-        displayLocationsOfType(mapInstance, ['hotels']);
+        displayLocationsOfType(mapInstance, ['lodging']);
   });
      $("#" + eachPlaceIdentifier + "-attractions").click(function(){
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-        displayLocationsOfType(mapInstance, ['attractions']);
+        displayLocationsOfType(mapInstance, ['tourist_attraction']);
   });
 });
