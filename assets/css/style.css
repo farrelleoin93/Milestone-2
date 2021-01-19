@@ -21,6 +21,10 @@ ul {
     margin: 0;
 }
 
+button:hover {
+    background-color: #ff6600b5;
+    border-color: #ff6600b5;
+}
 /*--------------------Headings */
 
 h1,
@@ -45,11 +49,23 @@ h2 {
 /*--------------------Header */
 
 .navbar {
-    background-color: #ff6600;
+    background-color: #5b5b61;
 }
 
 .navbar a {
     color: #fff;
+}
+
+.navbar a {
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }
 
 /*--------------------Images */
@@ -254,7 +270,7 @@ form button {
 /*---------------------Footer */
 
 footer {
-    background-color: #ff6600;
+    background-color: #5b5b61;
     color: #fff;
 }
 
