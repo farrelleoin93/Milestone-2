@@ -132,7 +132,7 @@ h2 {
 }
 
 .card-option {
-    width: 20%;
+    max-width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
     display: flex;
@@ -228,7 +228,7 @@ h2 {
 
 .maps {
     height: 500px;
-    width: 500px;
+    width: 100%;
 }
 
 /*---------------------Form */
