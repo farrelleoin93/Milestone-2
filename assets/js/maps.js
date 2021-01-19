@@ -1,5 +1,6 @@
 // Code for maps was found at https://thedebuggers.com/generate-multiple-google-maps/
 let map1, map2, map3;
+
 function initMap() {
     let mapOptions = {
         zoom: 13,
