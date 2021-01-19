@@ -23,7 +23,7 @@
     <header>
         <!--Start of navbar-->
         <div id="home">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">Discover Vietnam</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class=" hero-image"><a href="#cities"><button class="hero-button">Pick a City</button></a></div>
-                
+
             </div>
         </div>
     </section>
@@ -60,20 +60,28 @@
     <!--Start of Choose a City Section-->
     <section id="cities">
         <h2>Cities</h2>
-        <div class="row">
-            <div class="cities">
-                <a href="#hanoi" class="card" id="hanoi-info">
-                    <img src="./assets/images/hanoi-card.jpg" alt="Hanoi" class="card-img">
-                    <h2>Hanoi</h2>
-                </a>
-                <a href="#sapa" class="card" id="sapa-info">
-                    <img src="./assets/images/sapa-card.jpg" alt="Sapa" class="card-img">
-                    <h2>Sapa</h2>
-                </a>
-                <a href="#hoi-an" class="card" id="hoi-an-info">
-                    <img src="./assets/images/hoi-an-card.jpg" alt="Hoi An" class="card-img">
-                    <h2>Hoi An</h2>
-                </a>
+        <div>
+            <div class="cities row no-gutters">
+                <div class="col-md-4 col-sm-10">
+                    <a href="#hanoi" class="card" id="hanoi-info">
+                        <img src="./assets/images/hanoi-card.jpg" alt="Hanoi" class="card-img">
+                        <h2>Hanoi</h2>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-10">
+                    <a href="#sapa" class="card" id="sapa-info">
+                        <img src="./assets/images/sapa-card.jpg" alt="Sapa" class="card-img">
+                        <h2>Sapa</h2>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-10">
+                    <a href="#hoi-an" class="card" id="hoi-an-info">
+                        <img src="./assets/images/hoi-an-card.jpg" alt="Hoi An" class="card-img">
+                        <h2>Hoi An</h2>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -97,39 +105,49 @@
 
 
                 <!--Start of Hanoi Choices-->
-                <section class="choices" id="choices-hanoi">
-                    <a href="#choices-hanoi" class="choices-items" id="hanoi-bars">
-                        <i class="fas fa-cocktail icon"></i>
-                        <h4>Bars</h4>
-                    </a>
+                <section class="choices row no-gutters" id="choices-hanoi">
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <a href="#choices-hanoi" class="choices-items" id="hanoi-bars">
+                            <i class="fas fa-cocktail icon"></i>
+                            <h4>Bars</h4>
+                        </a>
+                    </div>
 
                     <div class="vl"></div>
 
-                    <a href="#choices-hanoi" class="choices-items" id="hanoi-restaurants">
-                        <i class="fas fa-utensils icon"></i>
-                        <h4>Restaurants</h4>
-                    </a>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <a href="#choices-hanoi" class="choices-items" id="hanoi-restaurants">
+                            <i class="fas fa-utensils icon"></i>
+                            <h4>Restaurants</h4>
+                        </a>
+                    </div>
 
                     <div class="vl"></div>
 
-                    <a href="#choices-hanoi" class="choices-items" id="hanoi-cafes">
-                        <i class="fas fa-coffee icon"></i>
-                        <h4>Cafes</h4>
-                    </a>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <a href="#choices-hanoi" class="choices-items" id="hanoi-cafes">
+                            <i class="fas fa-coffee icon"></i>
+                            <h4>Cafes</h4>
+                        </a>
+                    </div>
 
                     <div class="vl"></div>
 
-                    <a href="#choices-hanoi" class="choices-items" id="hanoi-hotels">
-                        <i class="fas fa-hotel icon"></i>
-                        <h4>Hotels</h4>
-                    </a>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <a href="#choices-hanoi" class="choices-items" id="hanoi-hotels">
+                            <i class="fas fa-hotel icon"></i>
+                            <h4>Hotels</h4>
+                        </a>
+                    </div>
 
                     <div class="vl"></div>
 
-                    <a href="#choices-hanoi" class="choices-items" id="hanoi-attractions">
-                        <i class="fas fa-theater-masks icon"></i>
-                        <h4>Attractions</h4>
-                    </a>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <a href="#choices-hanoi" class="choices-items" id="hanoi-attractions">
+                            <i class="fas fa-theater-masks icon"></i>
+                            <h4>Attractions</h4>
+                        </a>
+                    </div>
                 </section>
                 <!--End of Hanoi Choices-->
 

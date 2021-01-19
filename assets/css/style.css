@@ -113,14 +113,9 @@ h2 {
 }
 
 .card {
-    display: flex;
-    flex: 0 0 auto;
-    width: 22%;
-    margin-left: 10px;
-    margin-right: 10px;
-    overflow: hidden;
-    position: relative;
     background: black;
+    width: 90%;
+    margin: auto;
 }
 
 .card h2 {
