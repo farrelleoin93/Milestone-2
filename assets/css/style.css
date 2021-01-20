@@ -22,8 +22,8 @@ ul {
 }
 
 button:hover {
-    background-color: #ff6600b5;
-    border-color: #ff6600b5;
+    background-color: #c7621f;
+    border-color: #c7621f;
 }
 /*--------------------Headings */
 
@@ -307,4 +307,27 @@ footer .icon {
 
 ul {
     list-style: none;
+}
+
+
+@media screen and (max-width: 480px) {
+
+   .choices .icon {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+   }
+
+   .choices h4 {
+       font-size: 20px;
+   }
+
+   /* .vl-phone {
+       display: none;
+   }
+
+   .vl {
+    border-left: 4px solid #fff;
+    height: 60px;
+} */
 }
