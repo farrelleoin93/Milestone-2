@@ -324,6 +324,10 @@ ul {
        font-size: 20px;
    }
 
+   .city-description p {
+    width: 95%;
+   }
+
    /* .vl-phone {
        display: none;
    }
