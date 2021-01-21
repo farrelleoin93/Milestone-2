@@ -74,7 +74,7 @@ h2 {
 
 /*--------------------Images */
 .hero-image {
-  height: 110vh;
+  height: 70vh;
   width: 100%;
   background-image: url(../images/hero-image.jpg);
   position: relative;
@@ -328,12 +328,4 @@ ul {
     width: 95%;
    }
 
-   /* .vl-phone {
-       display: none;
-   }
-
-   .vl {
-    border-left: 4px solid #fff;
-    height: 60px;
-} */
 }
