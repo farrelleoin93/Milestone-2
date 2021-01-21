@@ -44,7 +44,7 @@ You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/
 
 1. As a site owner, I want to be able to inspire people to go and travel and experience a different culture.
 2. As a site owner, I want to be able to supply the visitors of this site with fun and interesting things to do as well as nice places to eat.
-3. As a site owner, I want to be able to supply users with external information such flight details or weather.
+3. As a site owner, I want to to supply users with a working map that shows them where different places are located in the appropriate city, for example, bars, cafes etc.
 4. As a site owner, I want people to be able to contact me if they have any questions they want to ask or information about their travels that they would like to share. 
 5. As a site owner, I want to increase the volume of people that visit this website over time.
 
@@ -80,11 +80,14 @@ slightly more than the rest of the text. I used [Roboto](https://fonts.google.co
 
 ### Colours
 
-- The colours that I used for this website are Orange(#ff6600) and White(#fff). The Orange is used for the header and footer as well as for some bouttons and cards thoughout the website.
-I choose these colours as I felt that the orange was warm and inviting and I felt that the white was a nice contrast to the orange.
+- The colours that I used for this website are grey(#5b5b61), orange(#ff6600), green(#00cc00) and white(#fff). The grey is used for the header and footer.
+For the buttons I used orange as I feel that it is a nice warm colour that works well with the grey of the header and footer. I decided that the colour 
+of the forms button should change to green when the email successfully sends, this is to make it clear to the user that their email actually sent. 
+The background of the website is white as I feel that it is a nice clean colour that works well with the other colours used in the website.
 
 ### Icons
-
+- The icons that I used in this project were provided by [Font Awesome](https://fontawesome.com/). I decided to use fonts as they offer a pleasant visual aide to the site, 
+also users tend to know that icons usually work as buttons.
 
 ## <a name="wireframes">Wireframes</a>
 
