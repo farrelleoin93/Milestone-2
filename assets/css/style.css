@@ -199,6 +199,10 @@ h2 {
    color: #fff ;
 }
 
+.choices a:-webkit-any-link{
+    text-decoration: none;
+}
+
 .choices-items {
     padding: 0px 60px;
 }
@@ -208,6 +212,11 @@ h2 {
     font-size: 35px;
     display: flex;
     justify-content: center;
+}
+
+
+.grow:hover {
+    transform: scale(1.3);
 }
 
 .vl {
