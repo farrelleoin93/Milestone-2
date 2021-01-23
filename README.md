@@ -114,7 +114,9 @@ also users tend to know that icons usually work as buttons.
 
 ### Languages
 
-- 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS3)
+- [JavaScript](https://en.wikipedia.org/wiki/javascript)
 
 ### Other
 
@@ -122,6 +124,7 @@ also users tend to know that icons usually work as buttons.
 - [Font Awesome](https://fontawesome.com/)
 - [Ucraft](https://www.ucraft.com/free-logo-maker)
 - [Bootstrap 4.5](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Balsamiq](https://balsamiq.com/)
 - [Github](https://github.com/)
@@ -166,7 +169,17 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 - The hero image was found on [Unsplash](https://unsplash.com) and was taken by Ammie Ngo.
 - The image for the Hanoi card was found on [Unsplash](https://unsplash.com) and was taken by Chor Tsang.
 - The image for the Hoi An card was found on [Unsplash](https://unsplash.com) and was taken by Jack Hunter.
-- The image for the Halong Bay card was found on [Unsplash](https://unsplash.com) and was taken by Steven Lasry.
+- The image for the Sapa card was found on [Unsplash](https://unsplash.com) and was taken by Urel Landetne.
+- The image for Cooking Class in Hanoi was found on [Unsplash](https://unsplash.com) and was taken by Markus Winkler.
+- The image for Hanoi Day Tour was found on [Unsplash](https://unsplash.com) and was taken by Frida Aguilar Estrada.
+- The image for the Hanoi Street Food Tourwas found on [Unsplash](https://unsplash.com) and was taken by callme_gohann.
+- The image of Fansipan Cable Car in Sapa was found on [Unsplash](https://unsplash.com) and was taken by Minh Tran.
+- The image for girl in Sapa was found on [Unsplash](https://unsplash.com) and was taken by Kyle Petzer.
+- The image of the Sapa Market was found on [Unsplash](https://unsplash.com) and was taken by Na Bao.
+- The image for the Hoi An Day Tour was found on [Unsplash](https://unsplash.com) and was taken by Jil Beckmann.
+- The image for Marble Mountain in Hoi An was found on [Unsplash](https://unsplash.com) and was taken by Catherine Dionne.
+- The image of the Japanese Bridge in Hoi An was found on [Unsplash](https://unsplash.com) and was taken by Benjamin Wong.
+
 
 
 ### Code 
