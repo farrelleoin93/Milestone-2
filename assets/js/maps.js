@@ -1,5 +1,7 @@
 // Code for maps was found at https://thedebuggers.com/generate-multiple-google-maps/
 let map1, map2, map3;
+let markers = [];
+
 
 function initMap() {
     let mapOptions = {
@@ -29,6 +31,12 @@ function callback(results, status) {
     }
   }
 }
+
+function clearMarkers() {
+  createMarker(null);
+}
+
+
 function createMarker(place) {
   var placeLoc = place.geometry.location;
   var marker = new google.maps.Marker({
@@ -37,6 +45,25 @@ function createMarker(place) {
     title: place.name
   })
 }
+
+// function createMarker(place) {
+//   var placeLoc = place.geometry.location;
+//   var marker = new google.maps.Marker({
+//     map: map2,
+//     position: place.geometry.location,
+//     title: place.name
+//   })
+// }
+
+// function createMarker(place) {
+//   var placeLoc = place.geometry.location;
+//   var marker = new google.maps.Marker({
+//     map: map3,
+//     position: place.geometry.location,
+//     title: place.name
+//   })
+// }
+
 function getMapInstanceFromPlaceNameIdentifier(placeNamesIdentifier) {
     if(placeNamesIdentifier === 'hanoi') {
         return map1;
@@ -44,12 +71,14 @@ function getMapInstanceFromPlaceNameIdentifier(placeNamesIdentifier) {
         return map2;
     } else if(placeNamesIdentifier === 'hoi-an') {
         return map3;
-    }
+    } 
     return null;
 }
+
 const placeNamesIdentifiers = ['hanoi', 'sapa', 'hoi-an'];
 placeNamesIdentifiers.forEach((eachPlaceIdentifier) => {
  $("#" + eachPlaceIdentifier + "-bars").click(function(){
+     clearMarkers();
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
         displayLocationsOfType(mapInstance, ['bar']);
   });
