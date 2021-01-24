@@ -27,13 +27,10 @@ function callback(results, status) {
   if (status == google.maps.places.PlacesServiceStatus.OK) {
     console.log(results.length);
     for (var i = 0; i < results.length; i++) {
+      markers.push(results[i]);
       createMarker(results[i]);
     }
   }
-}
-
-function clearMarkers() {
-  createMarker(null);
 }
 
 
@@ -46,23 +43,18 @@ function createMarker(place) {
   })
 }
 
-// function createMarker(place) {
-//   var placeLoc = place.geometry.location;
-//   var marker = new google.maps.Marker({
-//     map: map2,
-//     position: place.geometry.location,
-//     title: place.name
-//   })
+
+function clearMarkers() {
+  callback(null);
+}
+
+// function clearMarkers() {
+//   for (let i = 0; i < markers.length; i++) {
+//     markers[i].setMap(null);
+//   }
+//   markers = [];
 // }
 
-// function createMarker(place) {
-//   var placeLoc = place.geometry.location;
-//   var marker = new google.maps.Marker({
-//     map: map3,
-//     position: place.geometry.location,
-//     title: place.name
-//   })
-// }
 
 function getMapInstanceFromPlaceNameIdentifier(placeNamesIdentifier) {
     if(placeNamesIdentifier === 'hanoi') {
@@ -83,18 +75,22 @@ placeNamesIdentifiers.forEach((eachPlaceIdentifier) => {
         displayLocationsOfType(mapInstance, ['bar']);
   });
    $("#" + eachPlaceIdentifier + "-restaurants").click(function(){
+       clearMarkers();
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
         displayLocationsOfType(mapInstance, ['restaurant']);
   });
      $("#" + eachPlaceIdentifier + "-cafes").click(function(){
+         clearMarkers();
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
         displayLocationsOfType(mapInstance, ['cafe']);
   });
      $("#" + eachPlaceIdentifier + "-hotels").click(function(){
+         clearMarkers();
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
         displayLocationsOfType(mapInstance, ['lodging']);
   });
      $("#" + eachPlaceIdentifier + "-attractions").click(function(){
+         clearMarkers();
         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
         displayLocationsOfType(mapInstance, ['tourist_attraction']);
   });
