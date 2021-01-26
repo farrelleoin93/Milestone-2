@@ -1,19 +1,8 @@
 // Code for maps was found at https://thedebuggers.com/generate-multiple-google-maps/
 let map;
 let markers = [];
-
-
-// function getCity() {
-//     if(document.getElementById("hanoi").click) {
-//         return new google.maps.LatLng(21.038598, 105.830440); // hanoi
-//     } else if(document.getElementById("sapa").click) {
-//         return new google.maps.LatLng(22.336459, 103.843878); // sapa
-//     } else if(document.getElementById("hoi-an").click) {
-//         return google.maps.LatLng(15.880314, 108.339319); // hoi-an
-//     } 
-//     return null;
-// }
-
+let lastinfowindow = null;
+let infowindow;
 
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
@@ -64,31 +53,38 @@ function callback(results, status) {
     }
 }
 
-
 function createMarker(place) {
-    var placeLoc = place.geometry.location;
+    // var placeLoc = place.geometry.location;
     var marker = new google.maps.Marker({
         map: map,
         position: place.geometry.location,
         title: place.name
     })
+    let infowindow = new google.maps.InfoWindow();
+    google.maps.event.addListener(marker, "click", function () {
+        //Code to remove last info window was found at https://hashnode.com/post/google-maps-api-onclick-on-marker-close-infowindow-of-other-markers-ciou68dw708x33353les71nyi
+        if (lastinfowindow) lastinfowindow.close();
+        infowindow.setContent(
+            "<div><strong>" +
+            place.name +
+            "</strong><br>" +
+            "Place ID: " +
+            place.place_id +
+            "<br>" +
+            place.formatted_address +
+            "</div>"
+        );
+        infowindow.open(map, marker);
+        lastinfowindow = infowindow;
+    });
 }
+
+
 
 function clearMarkers() {
     callback(null);
 }
 
-
-// function clearMarkers() {
-//   callback(null);
-// }
-
-// function clearMarkers() {
-//   for (let i = 0; i < markers.length; i++) {
-//     markers[i].setMap(null);
-//   }
-//   markers = [];
-// }
 $(document).ready(function () {
     $(".bars").click(function () {
         clearMarkers();
@@ -110,34 +106,3 @@ $(document).ready(function () {
         displayLocationsOfType(["tourist_attraction"]);
     });
 });
-
-
-// const placeNamesIdentifiers = ['hanoi', 'sapa', 'hoi-an'];
-// placeNamesIdentifiers.forEach((eachPlaceIdentifier) => {
-//  $("#" + eachPlaceIdentifier + "-bars").click(function(){
-//     //  clearMarkers();
-//         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-//         displayLocationsOfType(['bar']);
-//   });
-//    $("#" + eachPlaceIdentifier + "-restaurants").click(function(){
-//     //    clearMarkers();
-//         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-//         displayLocationsOfType(['restaurant']);
-//   });
-//      $("#" + eachPlaceIdentifier + "-cafes").click(function(){
-//         //  clearMarkers();
-//         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-//         displayLocationsOfType(['cafe']);
-//   });
-//      $("#" + eachPlaceIdentifier + "-hotels").click(function(){
-//         //  clearMarkers();
-//         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-//         displayLocationsOfType(['lodging']);
-//   });
-//      $("#" + eachPlaceIdentifier + "-attractions").click(function(){
-//         //  clearMarkers();
-//         const mapInstance = getMapInstanceFromPlaceNameIdentifier(eachPlaceIdentifier);
-//         displayLocationsOfType(['tourist_attraction']);
-//   });
-// });
-
