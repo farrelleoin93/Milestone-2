@@ -106,3 +106,105 @@ $(document).ready(function () {
         displayLocationsOfType(["tourist_attraction"]);
     });
 });
+
+$(document).ready(function () {
+    $("#hanoi-cooking").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 21.045239642410273, lng: 105.84241360887668 },
+        })
+        new google.maps.Marker({
+            position: { lat: 21.045239642410273, lng: 105.84241360887668 },
+            map,
+            title: "Hanoi Cooking Centre",
+        });
+    });
+    $("#hanoi-day-tour").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 21.02891637206284, lng:  105.83647054004012},
+        })
+        new google.maps.Marker({
+            position: { lat: 21.02891637206284, lng:  105.83647054004012},
+            map,
+            title: "Hanoi Local Tour",
+        });
+    });
+    $("#hanoi-food-tour").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 21.03431899014755, lng: 105.8519080670291 },
+        })
+        new google.maps.Marker({
+            position: { lat: 21.03431899014755, lng: 105.8519080670291 },
+            map,
+            title: "Hanoi Street Food Tour",
+        });
+    });
+    $("#fansipan-cable-car").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 22.333653721803543, lng: 103.81845715539488 },
+        })
+        new google.maps.Marker({
+            position: { lat: 22.333653721803543, lng: 103.81845715539488 },
+            map,
+            title: "Fansipan Cable Car",
+        });
+    });
+    $("#sapa-market").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 22.33899354686653, lng: 103.85186066065194 }, 
+        })
+        new google.maps.Marker({
+            position: { lat: 22.33899354686653, lng: 103.85186066065194 },
+            map,
+            title: "Sapa Market",
+        });
+    });
+    $("#sapa-trek").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 22.33285088414197, lng: 103.8446917130653 }, 
+        })
+        new google.maps.Marker({
+            position: { lat: 22.33285088414197, lng: 103.8446917130653 },
+            map,
+            title: "Sapa Trekking Tour",
+        });
+    });
+    $("#marble-mountain").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 16.00319317624652, lng: 108.26403755349087 }, 
+        })
+        new google.maps.Marker({
+            position: { lat: 16.00319317624652, lng: 108.26403755349087 },
+            map,
+            title: "Marble Mountain",
+        });
+    });
+    $("#hoi-an-tour").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 15.882504014197991, lng: 108.32787448141758 }, 
+        })
+        new google.maps.Marker({
+            position: { lat: 15.882504014197991, lng: 108.32787448141758 }, 
+            map,
+            title: "Hoi An Day Tour",
+        });
+    });
+    $("#japanese-bridge").click(function () {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 18,
+            center: { lat: 15.87733489917905, lng: 108.32611472650093 }, 
+        })
+        new google.maps.Marker({
+            position: { lat: 15.87733489917905, lng: 108.32611472650093 }, 
+            map,
+            title: "Japanese Bridge",
+        });
+    });
+});
