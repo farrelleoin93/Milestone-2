@@ -2,6 +2,7 @@
 $(document).ready(function(){
   $("#hanoi-info").click(function(){
     $("#hanoi").show();
+    $("#map-container").show();
     $("#hanoi-activities-info").show();
     $("#sapa").hide();
     $("#hoi-an").hide();
@@ -11,6 +12,7 @@ $(document).ready(function(){
 
   $("#sapa-info").click(function(){
     $("#sapa").show();
+    $("#map-container").show();
     $("#sapa-activities-info").show();
     $("#hanoi").hide();
     $("#hoi-an").hide();
@@ -20,6 +22,7 @@ $(document).ready(function(){
 
   $("#hoi-an-info").click(function(){
     $("#hoi-an").show();
+    $("#map-container").show();
     $("#hoi-an-activities-info").show();
     $("#sapa").hide();
     $("#hanoi").hide();
