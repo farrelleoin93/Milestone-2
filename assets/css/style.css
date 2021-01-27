@@ -154,7 +154,6 @@ h2 {
     max-width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 40px;
@@ -163,6 +162,7 @@ h2 {
 .card-option button {
     position: absolute;
     bottom: 0;
+    margin-left: 25%;
 }
 
 .card-option p {
@@ -192,6 +192,10 @@ h2 {
 }
 
 #hoi-an-activities-info {
+    display: none;
+}
+
+#map-container {
     display: none;
 }
 
