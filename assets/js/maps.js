@@ -49,9 +49,10 @@ function displayLocationsOfType(locationTypes) {
 // Function to get places locations from Google places
 function callback(results, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
+        clearMarkers();
         console.log(results.length);
         for (var i = 0; i < results.length; i++) {
-            markers.push(results[i]);
+            // markers.push(results[i]);
             createMarker(results[i]);
         }
     }
@@ -82,20 +83,21 @@ function createMarker(place) {
         infowindow.open(map, marker);
         lastinfowindow = infowindow;
     });
+    markers.push(marker)
 }
-
-// function clearMarkers() {
-//         for (let i = 0; i < markers.length; i++) {
-//           if (markers[i]) {
-//             markers[i].setMap(null);
-//           }
-//         }
-//         markers = [];
-//       }
 
 function clearMarkers() {
-    callback(null);
-}
+        for (let i = 0; i < markers.length; i++) {
+          if (markers[i]) {
+            markers[i].setMap(null);
+          }
+        }
+        markers = [];
+      }
+
+// function clearMarkers() {
+//     callback(null);
+// }
 
 // Function to show display markers when an option is clicked
 $(document).ready(function () {
