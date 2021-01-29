@@ -1,4 +1,4 @@
-//------------------------------ Show cities information
+//------------------------------ Show cities information and display map
 $(document).ready(function(){
   $("#hanoi-info").click(function(){
     $("#hanoi").show();
@@ -29,29 +29,7 @@ $(document).ready(function(){
     $("#hanoi-activities-info").hide();
     $("#sapa-activities-info").hide();
   });
-
-  
-//------------------------------ Show hanoi options information
-
-
-  $("#hanoi-activities").click(function(){
-    $("#hanoi-activities-info").show();
-    $("#hanoi-restaurants-info").hide();
-    $("#hanoi-culture-info").hide();
-  });
-
-   $("#hanoi-restaurants").click(function(){
-    $("#hanoi-restaurants-info").show();
-    $("#hanoi-activities-info").hide();
-    $("#hanoi-culture-info").hide();
-  });
-
-   $("#hanoi-culture").click(function(){
-    $("#hanoi-culture-info").show();
-    $("#hanoi-restaurants-info").hide();
-    $("#hanoi-activities-info").hide();
-  });
-}); 
+});
 
 
 
