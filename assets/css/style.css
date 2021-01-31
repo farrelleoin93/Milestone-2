@@ -15,6 +15,7 @@ body {
 
 p {
     margin: 0;
+    color: #4c4c4f;
 }
 
 ul {
@@ -31,9 +32,10 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Lora", sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     font-weight: 600;
     text-align: center;
+    color: #4c4c4f;
 }
 
 h2 {
@@ -48,10 +50,12 @@ h2 {
 }
 
 .navbar-dark .navbar-brand {
+    font-family: "Roboto Mono", sans-serif;
     color: #f8b278;
 }
 
 .navbar-dark .navbar-nav .nav-link {
+    font-family: "Roboto Mono", sans-serif;
     color: #f8b278;
 }
 /*-------------------- End of navbar */
@@ -89,6 +93,10 @@ h2 {
     color: #fff;
     font-size: 40px;
     padding: 0;
+}
+
+.hero-button p {
+    color: #fff;
 }
 
 .hero-button button {
@@ -188,6 +196,10 @@ h2 {
     color: #fff;
 }
 
+.choices h4 {
+        color: #fff;
+}
+
 .choices a {
    color: #fff ;
 }
@@ -253,11 +265,15 @@ h2 {
     width: 100%;
     height: auto;
 }
-
+/* Code to fix center bug was found at https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element */
 .card-option button {
-    position: absolute;
     bottom: 0;
-    margin-left: 25%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .card-option p {
@@ -295,7 +311,7 @@ button {
     background-color: #ff6600;
     color: #fff;
     border-color: #ff6600;
-    border-radius: 3px;
+    border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -310,7 +326,11 @@ form button {
 /*--------------------- Start of footer CSS */
 
 footer {
-    background-color: #5b5b61;
+    background-color: #4c4c4f;
+    color: #fff;
+}
+
+.footer-items p {
     color: #fff;
 }
 
