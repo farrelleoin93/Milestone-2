@@ -108,6 +108,20 @@ The original wireframes from before I started building this website can be found
 ## <a name="features">Features</a>
 
 ---
+The main features of this website are:
+- an attractive design.
+- a navigation bar that the user understands how to use even on their first visit that brings them to the appropriate part of the website.
+- a google maps window that shows the user the locations of different places that they might like to visit.
+- a top three picks section for each city.
+- a working contact us form so that the users can ask questions and give feedback about the website.
+- links to social platforms.
+
+Features that will be added in the future are:
+- information about the weather in each city.
+- a promaotional video for each city.
+- flight information for Vietnam.
+- additional cities being added. 
+- a photo gallery showing pictures that people have taken in Vietnam.
 
 
 
