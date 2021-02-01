@@ -1,3 +1,5 @@
+// Code to email the completed form was found at https://www.emailjs.com/docs/
+
 function sendMail(contactForm) {
     emailjs.send("service_hbfvznd","discover_vietnam", {
         "from_name": contactForm.fullname.value,
