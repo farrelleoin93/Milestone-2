@@ -94,7 +94,10 @@ also users tend to know that icons usually work as buttons.
 ---
 
 ### Original Wireframes
-
+The original wireframes from before I started building this website can be found at the following links:
+- [Desktop Wireframe](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/desktop-wireframe.pdf)
+- [Tablet Wireframe](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/tablet-wireframe.pdf)
+- [Phone Wireframe](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/phone-wireframe.pdf)
 
 
 #### Changes to Original Wireframes
@@ -148,6 +151,19 @@ descriptive nav bar which brings the user to the desired part of the website.
 3. *As a user, I want to be able to find interesting places to visit.* This is achieved by the website providing useful information about three different
  cities in Vietnam. The website also shows the user different places for them to visit in each city.
 
+4. *As a user, I want to be able to easily find things to do and places to eat in each place.* - This is achieved by providing a working google maps section 
+which shows markers for different types of places in each city e.g "Bars", "Cafes" etc. The website also provides a "Top 3 Picks" 
+section which gives the a brief descriptions of three different places in each city.
+
+5. *As a user, I want to be able to see useful information about flights to the places in the features on the website or else information about weather in these places.* - 
+The website does not currently provide the useer with this feature, however, this feature will be added to the website iin the future.
+
+6. *As a user, I want to be able to see where all the places mentioned on the website are.* - This is achieved by markers appearing on the map showing the location of all 
+the different places in each city that the user might want to visit.
+
+7. *As a user, I want to be able to easily contact the owner of the website.* - This is achieved by the working form located at the end of the website. The 
+user is also provided with a link to this section of the website in the navbar.
+
 
 ## <a name="bugs">Bugs</a>
 
@@ -176,7 +192,7 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 
 ### Media
 
-- The hero image was found on [Unsplash](https://unsplash.com) and was taken by Ammie Ngo.
+- The hero image was found on [Unsplash](https://unsplash.com) and was taken by René DeAnda.
 - The image for the Hanoi card was found on [Unsplash](https://unsplash.com) and was taken by Chor Tsang.
 - The image for the Hoi An card was found on [Unsplash](https://unsplash.com) and was taken by Jack Hunter.
 - The image for the Sapa card was found on [Unsplash](https://unsplash.com) and was taken by Urel Landetne.
@@ -195,11 +211,12 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 ### Code 
 
 1. [Bootstrap](https://getbootstrap.com/) - The code for the navbar was found [here](https://getbootstrap.com/docs/4.0/components/navbar/).
-2. The code for the horizontal scrolling cards was found [here](https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6).
-3. The code for the maps were found [here](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-css).
+3. The code for the map were found [here](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-css).
 4. The code for the form was taken from my first milestone project and can be found [here](https://github.com/farrelleoin93/Milestone-1-Recipe-Site/blob/master/contact.html).
+5. The code used to email the form was found [here](https://www.emailjs.com/docs/).
 ### Content
 
+The brief description of each was found on [Lonely Planet](https://www.lonelyplanet.com/).
 
 ## <a name="acknowledgements">Acknowledgements</a>
 
