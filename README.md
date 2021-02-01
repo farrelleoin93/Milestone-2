@@ -137,6 +137,16 @@ also users tend to know that icons usually work as buttons.
 
 ---
 
+#### Testing User Stories
+
+1. *As a user, I want to understand what the site is for.* - This is achieved by the paragragh on the hero image which gives a brief description of the site. 
+The name *Discover Vietnam* also gives the user a hint about what kind of website it is.
+
+2. *As a user, I want to be able to easily navigate through the site even on my first visit.* - I feel that this is achieved by a clear and 
+descriptive nav bar which brings the user to the desired part of the website. 
+
+3. *As a user, I want to be able to find interesting places to visit.* This is achieved by the website providing useful information about three different
+ cities in Vietnam. The website also shows the user different places for them to visit in each city.
 
 
 ## <a name="bugs">Bugs</a>
