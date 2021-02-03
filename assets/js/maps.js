@@ -79,6 +79,7 @@ function createMarker(place) {
     markers.push(marker)
 }
 
+//Code to remove markers from map was found at https://developers.google.com/maps/documentation/javascript/examples/marker-remove
 function clearMarkers() {
     for (let i = 0; i < markers.length; i++) {
         if (markers[i]) {
