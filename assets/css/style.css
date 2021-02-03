@@ -74,7 +74,7 @@ h2 {
   background-size: cover;
 }
 
-.hero-button {
+.hero-info {
     position: absolute;
     top: 29%;
     left: 29%;
@@ -86,24 +86,26 @@ h2 {
     align-items: center;
     width: 35%;
     color: #fff;
+    text-align: center;
 } 
 
-.hero-button h2 {
+.hero-info h2 {
     font-family: "Roboto Mono", sans-serif;
     color: #fff;
     font-size: 40px;
     padding: 0;
 }
 
-.hero-button p {
+.hero-info p {
     color: #fff;
 }
 
-.hero-button button {
+.hero-info button {
     width: 200px;
     background-color: #ffffff40;
     border: #fff;
     border-style: solid;
+    margin-top: 20px;
 }
 
 /*--------------------- End of hero image section */
