@@ -154,6 +154,12 @@ Features that will be added in the future are:
 
 ---
 
+1. I passed index.html through the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) and the first results which contained some errors 
+can be seen [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-1.png) and [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-2.png).
+After I fixed the issues I passed index.html through validation service again and no errors or warnings appeared as can be seen [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-3.png).
+
+2. I passed style.css through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and the results came back stating that there were no errors as can be seen [here-no link]
+
 #### Testing User Stories
 
 1. *As a user, I want to understand what the site is for.* - This is achieved by the paragragh on the hero image which gives a brief description of the site. 
@@ -183,7 +189,14 @@ user is also provided with a link to this section of the website in the navbar.
 
 ---
 
-1. 
+### Bugs fixed while building the website:
+
+1. The button on the "Our Top 3 Picks" cards was not centered on tablet and mobile devices.
+  - This was fixed by applying the code that I found [here](https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element). This made sure 
+  the button was always centered on the card. 
+
+2. The markers on the map were not clearing when another option or place was clicked.
+  - This bug was fixed by using the code found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove) for the clear markers function. 
 
 ## <a name="deployment">Deployment</a>
 
