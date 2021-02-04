@@ -99,10 +99,31 @@ The original wireframes from before I started building this website can be found
 - [Tablet Wireframe](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/tablet-wireframe.pdf)
 - [Phone Wireframe](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/phone-wireframe.pdf)
 
-
+### Actual Wireframes
+The wireframes for the actual website can be found at the following links:
+- [Desktop Wireframe](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/actual-desktop-wireframe.pdf)
+- [Tablet Wireframe](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/actual-tablet-wireframe.pdf)
+- [Phone Wireframe](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/actual-phone-wireframe.pdf)
 #### Changes to Original Wireframes
 
+1. In the original wireframes I had planned on having a search bar in the center of the hero image for the user to 
+search for a place in Vietnam, however, as there are currently only three cities to chosoe from this seemed unnecessary. 
+I decided to replace this feature with a brief description about the website and a button that brought the user to the 
+section of the website where they could pick a city.
 
+2. As there are only three cities to choose from I decided the remove the horizontal scrolling feature.
+
+3. I decided to not add in a picture at the start of each cities section. I have plans to add a 
+gallery at a later stage to provide users with images of each place.
+
+4. I decided to move the map to in-between the options section ("Bars", "Cafes" etc) and the "Out Top3 Picks" section 
+as I felt that it was better to have the map closer to the options section so that the user would not have to keep 
+scrolling up to pick a different option.
+
+5. I decided to only have three different choices for "Our Top 3 Picks" instead of four as I felt it looked better.
+
+6. I placed the social icons on top of the copyright info in the center of the footer due to feedback I recieved 
+from a couple of people that tested my website for me. 
 
 
 ## <a name="features">Features</a>
