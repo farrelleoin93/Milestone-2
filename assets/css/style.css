@@ -304,6 +304,17 @@ h2 {
 #contact h2 {
     padding-bottom: 5px;
 }
+
+#success {
+    display: none;
+    text-align: center;
+}
+
+#failed {
+    display: none;
+    text-align: center;
+}
+
 .form-container {
     display: flex;
     flex-direction: column;
