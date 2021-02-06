@@ -1,7 +1,7 @@
 This is a travel website about Vietnam. It is designed to be eye pleasing while also providing the user with valuable
 information about different places in Vietnam.  
 
-You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/)
+You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/).
 
 # UX
 ## Contents
@@ -213,11 +213,15 @@ user is also provided with a link to this section of the website in the navbar.
 ### Bugs fixed while building the website:
 
 1. The button on the "Our Top 3 Picks" cards was not centered on tablet and mobile devices.
-  - This was fixed by applying the code that I found [here](https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element). This made sure 
+   - This was fixed by applying the code that I found [here](https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element). This made sure 
   the button was always centered on the card. 
 
-2. The markers on the map were not clearing when another option or place was clicked.
-  - This bug was fixed by using the code found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove) for the clear markers function. 
+2. The markers were only appearing on the Hanoi map as I originally had three seperate maps.
+   - This was fixed by only having one map that the center was changed when a different city was clicked, this 
+   resulted in the markers appearing for locations in each city. It also makes it easier to add more cities in the future.
+
+3. The markers on the map were not clearing when another option or place was clicked.
+   - This bug was fixed by using the code found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove) for the clear markers function. 
 
 ## <a name="deployment">Deployment</a>
 
@@ -264,7 +268,9 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 5. The code used to email the form was found [here](https://www.emailjs.com/docs/).
 ### Content
 
-The brief description of each was found on [Lonely Planet](https://www.lonelyplanet.com/).
+- The brief description of each city was found on [Lonely Planet](https://www.lonelyplanet.com/).
+- The description of each of "Our Top 3 Picks" were also found on [Lonely Planet](https://www.lonelyplanet.com/) with 
+the exception of The Beer 100 Garden which was found at [Choa Hanoi](https://chaohanoi.com/event-location/the-100-beer-garden-tay-ho/).
 
 ## <a name="acknowledgements">Acknowledgements</a>
 
