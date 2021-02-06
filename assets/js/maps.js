@@ -132,10 +132,10 @@ $(document).ready(function () {
             infowindow.open(map, marker);
         });
     });
-    $("#hanoi-day-tour").click(function () {
+    $("#beer100").click(function () {
         clearMarkers();
         marker = new google.maps.Marker({
-            position: { lat: 21.02891637206284, lng: 105.83647054004012 },
+            position: { lat: 21.067893149405588,  lng: 105.82892249609742 },
             map,
             title: "Hanoi Local Tour",
         });

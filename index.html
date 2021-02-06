@@ -14,45 +14,45 @@
 </head>
 
 <body class="site">
-        <div class="container-fluid" id="home">
-            <div class="row">
-                <!--Start of navbar-->
-                <div class=" hero-image">
-                    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
-                        <a class="navbar-brand nav-text" href="#">Discover Vietnam</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link nav-text" href="#home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link nav-text" href="#cities">Cities</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link nav-text" href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <!--End of navbar-->
-                    <!--Start of Hero Image-->
-                    <div class="hero-info">
-                        <h2>Discover Vietnam</h2>
-                        <p>From beautiful beaches to amazing mountains to patches of dessert there is a part of Vietnam to
-                            suit everyone.
-                            Come and experience delicious local food and a truly wonderful culture. Not sure what part
-                            of Vietnam to explore? Well let us help
-                            you find the place that is perfect for you.</p>
-                        <!-- Code to add onclick element to button was found at https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
-                       <button onclick="window.location.href='#cities'">Pick a City</button>
+    <div class="container-fluid" id="home">
+        <div class="row">
+            <!--Start of navbar-->
+            <div class=" hero-image">
+                <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+                    <a class="navbar-brand nav-text" href="#">Discover Vietnam</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#cities">Cities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#contact">Contact</a>
+                            </li>
+                        </ul>
                     </div>
+                </nav>
+                <!--End of navbar-->
+                <!--Start of Hero Image-->
+                <div class="hero-info">
+                    <h2>Discover Vietnam</h2>
+                    <p>From beautiful beaches to amazing mountains to patches of dessert there is a part of Vietnam to
+                        suit everyone.
+                        Come and experience delicious local food and a truly wonderful culture. Not sure what part
+                        of Vietnam to explore? Well let us help
+                        you find the place that is perfect for you.</p>
+                    <!-- Code to add onclick element to button was found at https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+                    <button onclick="window.location.href='#cities'">Pick a City</button>
                 </div>
             </div>
         </div>
+    </div>
     <!--End of Hero Image-->
 
     <!--Start of Choose a City Section-->
@@ -283,12 +283,12 @@
                     <button onclick="window.location.href='#map'" id="hanoi-cooking">Show On Map</button>
                 </div>
                 <div class="card-option col-12 col-sm-3">
-                    <img src="./assets/images/hanoi/day-tour.jpg" alt="Day Tour" class="option-img">
-                    <h3>Hanoi Day Tour</h3>
-                    <p>It can be difficult to squeeze all of Hanoi's stunning highlights into one day, but we've
-                        conquered that task on this jam-packed day tour! From Hoan Kiem Lake to shopping in the
-                        Old Quarter, there is something for everyone.</p>
-                    <button onclick="window.location.href='#map'" id="hanoi-day-tour">Show On Map</button>
+                    <img src="./assets/images/hanoi/beer100.jpg" alt="The 100 Beer Garden" class="option-img">
+                    <h3>The 100 Beer Garden</h3>
+                    <p>Beer Garden, with FURBREW craft beer. A kitchen with bia hoi inspired food matching the beer to
+                        perfection. Hand crafted beer from FURBREW, good food, plenty of
+                        space and a bit away from the hustle of the city. Hidden a bit in a dark alley, but worth the effort to find.</p>
+                    <button onclick="window.location.href='#map'" id="beer100">Show On Map</button>
                 </div>
                 <div class="card-option col-12 col-sm-3">
                     <img src="./assets/images/hanoi/street-food.jpg" alt="Street Food Tour" class="option-img">
@@ -373,7 +373,8 @@
         <div class="col-12 form-container">
             <h2>Contact Us!</h2>
             <p id="success">Your email has been sent, a member of our team will be in touch shortly.</p>
-            <p id="failed">I'm sorry, something went wrong. Please make sure that all your details are correct and try again.</p>
+            <p id="failed">I'm sorry, something went wrong. Please make sure that all your details are correct and try
+                again.</p>
             <form id="contactForm" onsubmit="return sendMail(this);">
                 <input type="text" name="name" id="fullname" placeholder="Your Full Name" class="form-control"
                     required />
