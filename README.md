@@ -89,7 +89,7 @@ I felt it worked well with the grey of the hero image. For the buttons I used th
 that it is a nice warm colour that works well with the other colours used for the website. The background of the website is white.
 
 ### Icons
-- The icons that I used in this project were provided by [Font Awesome](https://fontawesome.com/). I decided to use fonts as they offer a pleasant visual aide to the site, 
+- The icons that I used in this project were provided by [Font Awesome](https://fontawesome.com/). I decided to use icons as they offer a pleasant visual aide to the site, 
 also users tend to know that icons usually work as buttons.
 
 ## <a name="wireframes">Wireframes</a>
@@ -242,6 +242,9 @@ user is also provided with a link to this section of the website in the navbar.
 3. The markers on the map were not clearing when another option or place was clicked.
    - This bug was fixed by using the code found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove) 
    for the clear markers function. 
+
+4. Most of the images were not appearing in the live version of the website.
+   - This was fixed by simply adding "." to the start of the path to the image.
 
 ## <a name="deployment">Deployment</a>
 
