@@ -158,17 +158,33 @@ Features that will be added in the future are:
 
 ### Other
 
-- [Tiny PNG](https://tinypng.com/)
-- [Font Awesome](https://fontawesome.com/)
-- [Ucraft](https://www.ucraft.com/free-logo-maker)
-- [Bootstrap 4.5](https://getbootstrap.com/)
-- [jQuery](https://jquery.com/)
-- [Google Fonts](https://fonts.google.com/)
-- [Balsamiq](https://balsamiq.com/)
-- [Github](https://github.com/)
-- [Gitpod](https://www.gitpod.io/)
-- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-- [WebFormatter](https://webformatter.com/html)
+1. [Tiny PNG](https://tinypng.com/)
+   - This was used to compress the size of every image used on in this project.
+2. [Font Awesome](https://fontawesome.com/)
+   - The icons used were found at Font Awesome.
+3. [Ucraft](https://www.ucraft.com/free-logo-maker)
+   - Ucraft was used to make the logo for the favicon.
+4. [Bootstrap 4.5](https://getbootstrap.com/)
+   - Bootstrap was used throughout this website, in 
+   particular for the navbar, form and for the responsiveness and styling.
+5. [jQuery](https://jquery.com/)
+   - jQuery was used through this website for interactive features.
+6. [Google Fonts](https://fonts.google.com/)
+   - The fonts used for this websites were found at Google Fonts.
+7. [Balsamiq](https://balsamiq.com/)
+   - The wireframes were made using Balsamiq.
+8. [Github](https://github.com/)
+   - This project was stored on Github.
+9. [Gitpod](https://www.gitpod.io/)
+   - Gitpod was used to write the code used for this website.
+10. [Git](https://en.wikipedia.org/wiki/Git)
+   - The version control system used for this project was Git.
+11. [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+   - Chrome DevTools was used to test the code for this website.
+12. [WebFormatter](https://webformatter.com/html) 
+   - WebFormatter was used to format the html code.
+13. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
+   - The Google Maps API was used for the map.
 
 
 ## <a name="testing">Testing</a>
