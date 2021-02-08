@@ -75,15 +75,18 @@ You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/
 
 ### Fonts
 
-For this website I have decided to use [Lora](https://fonts.google.com/specimen/Lora?query=lor) for all the headings throughout the site with a font weight of 600 to make them stand out
+I had originally planned on using [Lora](https://fonts.google.com/specimen/Lora?preview.text_type=custom) for the 
+headings, however, I recieved some feedback from a couple of friends that something more like Roboto Mono might look better.
+After testing out a couple of other fonts I decided that my friends were right so I decided to use [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?preview.text_type=custom) for all the 
+headings throughout the site with a font weight of 600 to make them stand out
 slightly more than the rest of the text. I used [Roboto](https://fonts.google.com/specimen/Roboto?query=rob) for the paragraghs of the website.
 
 ### Colours
 
-- The colours that I used for this website are grey(#5b5b61), orange(#ff6600), green(#00cc00) and white(#fff). The grey is used for the header and footer.
-For the buttons I used orange as I feel that it is a nice warm colour that works well with the grey of the header and footer. I decided that the colour 
-of the forms button should change to green when the email successfully sends, this is to make it clear to the user that their email actually sent. 
-The background of the website is white as I feel that it is a nice clean colour that works well with the other colours used in the website.
+- The colours that I used for this website are orange(#ff6600), a lighter (#f8b278), grey(#5b5b61), a light grey (#c5c5c5) and white(#fff). The dark grey is used for the footer while the light 
+grey is used for the backgound of the form section. For the font in the navbar I chose to use the light orange (#f8b278) as 
+I felt it worked well with the grey of the hero image. For the buttons I used the darker orange (#ff6600) as I feel 
+that it is a nice warm colour that works well with the other colours used for the website. The background of the website is white.
 
 ### Icons
 - The icons that I used in this project were provided by [Font Awesome](https://fontawesome.com/). I decided to use fonts as they offer a pleasant visual aide to the site, 
@@ -178,13 +181,13 @@ Features that will be added in the future are:
 9. [Gitpod](https://www.gitpod.io/)
    - Gitpod was used to write the code used for this website.
 10. [Git](https://en.wikipedia.org/wiki/Git)
-   - The version control system used for this project was Git.
+    - The version control system used for this project was Git.
 11. [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-   - Chrome DevTools was used to test the code for this website.
+    - Chrome DevTools was used to test the code for this website.
 12. [WebFormatter](https://webformatter.com/html) 
-   - WebFormatter was used to format the html code.
+    - WebFormatter was used to format the html code.
 13. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
-   - The Google Maps API was used for the map.
+    - The Google Maps API was used for the map.
 
 
 ## <a name="testing">Testing</a>
@@ -237,7 +240,8 @@ user is also provided with a link to this section of the website in the navbar.
    resulted in the markers appearing for locations in each city. It also makes it easier to add more cities in the future.
 
 3. The markers on the map were not clearing when another option or place was clicked.
-   - This bug was fixed by using the code found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove) for the clear markers function. 
+   - This bug was fixed by using the code found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove) 
+   for the clear markers function. 
 
 ## <a name="deployment">Deployment</a>
 
@@ -273,8 +277,6 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 - The image for the Hoi An Day Tour was found on [Unsplash](https://unsplash.com) and was taken by Jil Beckmann.
 - The image for Marble Mountain in Hoi An was found on [Unsplash](https://unsplash.com) and was taken by Catherine Dionne.
 - The image of the Japanese Bridge in Hoi An was found on [Unsplash](https://unsplash.com) and was taken by Benjamin Wong.
-
-
 
 ### Code 
 
