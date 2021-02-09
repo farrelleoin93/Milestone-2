@@ -8,7 +8,6 @@ function sendMail(contactForm) {
     })
         .then(
             function () {
-                let emailSent = document.getElementById("success");
                 $("#success").show();
                 function toggleDiv() {
                     setTimeout(function () {
@@ -24,6 +23,7 @@ function sendMail(contactForm) {
                         $("#failed").hide();
                     }, 5000);
                 }
+                console.log('FAILED...', error);
                 toggleDiv();
             }
         );
