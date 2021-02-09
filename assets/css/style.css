@@ -238,18 +238,11 @@ h2 {
     display: none;
 }
 
-.map-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-top: 60px;
-}
-
 .maps {
     height: 500px;
     width: 100%;
 }
+
 /*--------------------- End of map CSS */
 
 /*--------------------- Start of Top 3 picks CSS */
