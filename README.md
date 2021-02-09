@@ -284,9 +284,14 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 ### Code 
 
 1. [Bootstrap](https://getbootstrap.com/) - The code for the navbar was found [here](https://getbootstrap.com/docs/4.0/components/navbar/).
+2. The code for the onclick function for th buttons was found [here](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
 3. The code for the map were found [here](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-css).
 4. The code for the form was taken from my first milestone project and can be found [here](https://github.com/farrelleoin93/Milestone-1-Recipe-Site/blob/master/contact.html).
 5. The code used to email the form was found [here](https://www.emailjs.com/docs/).
+6. The code for the info windows on map was found [here](https://developers.google.com/maps/documentation/javascript/infowindows).
+7. The code to remove the previous info window on the map was found [here](https://hashnode.com/post/google-maps-api-onclick-on-marker-close-infowindow-of-other-markers-ciou68dw708x33353les71nyi).
+8. The code to remove any markers from the map was found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove).
+9. The code to change the center of the map to the appropriate city was found [here](https://stackoverflow.com/questions/28499141/how-to-change-google-map-center-by-clicking-a-button/28500306).
 ### Content
 
 - The brief description of each city was found on [Lonely Planet](https://www.lonelyplanet.com/).
