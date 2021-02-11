@@ -84,7 +84,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 35%;
+    width: 385px;
     color: #fff;
     text-align: center;
 } 
@@ -98,6 +98,7 @@ h2 {
 
 .hero-info p {
     color: #fff;
+    text-align: left;
 }
 
 .hero-info button {
@@ -378,6 +379,12 @@ ul {
 /*--------------------- End of footer CSS */
 
 /*--------------------- Start of media queries */
+
+@media screen and (max-width: 768px) {
+    .hero-info {
+    left: 50%;
+    }
+}
 
 @media screen and (max-width: 480px) {
 
