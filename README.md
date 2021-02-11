@@ -198,7 +198,11 @@ Features that will be added in the future are:
 can be seen [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-1.png) and [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-2.png).
 After I fixed the issues I passed index.html through validation service again and no errors or warnings appeared as can be seen [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-3.png).
 
-2. I passed style.css through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and the results came back stating that there were no errors as can be seen [here-no link]
+2. I passed style.css through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and the results came back stating that there were no errors as can be seen [https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/css-validator.png].
+
+3. The lighthouse tool in was used in devTools. The first time the lighthouse results came back the performance was at 67%. This was due to the images used for 
+the Hanoi, Sapa and Hoi An cards being too big. This was rectified by downloading the same images again but smaller versions. I then used Tiny png to compress 
+these images. The results for the latest Lighthouse report can be found [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/lighthouse.png). 
 
 #### Manual Testing 
 - All navigation bar links were clicked and verified that they brought you to the correct part of the website.
