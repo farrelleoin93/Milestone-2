@@ -219,6 +219,13 @@ briefly before disappearing again.
 - I then tried to send the form while have having one of the fields empty to confirm that the user was prompted 
 with a message to fill in the field. This was repeated to check that it was the same for the "Name", "Email" and "Message" fields.
 - Each of the social links icons were clicked and it was verified that another tab opened on the relevant website.
+- The website was tested in tablet format to make sure that the information on the hero image was positioned in 
+the center of the screen and that the choices icon (bars, cafes etc) were now positioned with the first three 
+icons above the second two icons. All worked as expected.
+- The website was then tested on the following mobile phone devices: iPhone 7/8/X, Samsung Galaxy s10/s20, 
+Huawei p20/p30/p30 pro. This was to make sure that along with the changes that were made to the website in tablet 
+format the three city cards and all the "Our Top 3 Picks" cards were placed one on the top of the other. 
+Also the form widened to take up almost the full width of the viewport. This all worked as expected.
 
 
 #### Testing User Stories
