@@ -200,6 +200,27 @@ After I fixed the issues I passed index.html through validation service again an
 
 2. I passed style.css through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and the results came back stating that there were no errors as can be seen [here-no link]
 
+#### Manual Testing 
+- All navigation bar links were clicked and verified that they brought you to the correct part of the website.
+- The "Pick a City" button was clicked and it was verified that the it brought you to the "Cities" section.
+- Each of the different city cards were clicked and it was verified that the correct city section appeared on the page 
+while also hiding the unclicked cities.
+- On each city section the different choices icons were clicked (bars, cafes etc) and verified that for the relevant 
+loctions appeared on the map.
+- When a different one if the choices icons was clicked the previous markers disappeared and were replaced by new markers 
+at the relevant locations.
+- Each marker was clicked and it was confirmed that an info window appeared displaying the name of the establishment. 
+It was also confirmed that when another marker was clicked the info window on the previously clicked marker disappeared.
+- Each of the "Show on map" buttons in the various "Our Top 3 Picks" sections were clicked and verified that 
+the page redirected to the map and the location of the relevant location was positioned at the center of the map. It 
+was also confirmed that the map zoomed in closer on the marker.
+- The "Contact Us" form was filled out and it was confirmed that the paragraph displaying a confirmation message appeared 
+briefly before disappearing again. 
+- I then tried to send the form while have having one of the fields empty to confirm that the user was prompted 
+with a message to fill in the field. This was repeated to check that it was the same for the "Name", "Email" and "Message" fields.
+- Each of the social links icons were clicked and it was verified that another tab opened on the relevant website.
+
+
 #### Testing User Stories
 
 1. *As a user, I want to understand what the site is for.* - This is achieved by the paragragh on the hero image which gives a brief description of the site. 
