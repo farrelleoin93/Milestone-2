@@ -385,6 +385,10 @@ ul {
     .hero-info {
     left: 50%;
     }
+
+    .col-sm-3 {
+    flex: 0 0 28%;
+    }
 }
 
 @media screen and (max-width: 480px) {
