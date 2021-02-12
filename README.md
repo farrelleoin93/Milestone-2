@@ -189,6 +189,15 @@ Features that will be added in the future are:
 13. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
     - The Google Maps API was used for the map.
 
+### Resources
+The following websites were used as learning resources throughout the building of this project:
+- [Code Institute](https://codeinstitute.net/)
+- [Slack - Code Institutes Community](https://slack.com/intl/en-ie/)
+- [w3schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [YouTube](https://www.youtube.com/)
+- [CSS-Tricks](https://css-tricks.com/)
+- [Markdown](https://commonmark.org/help/)
 
 ## <a name="testing">Testing</a>
 
@@ -326,7 +335,7 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 8. The code to remove any markers from the map was found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove).
 9. The code to change the center of the map to the appropriate city was found [here](https://stackoverflow.com/questions/28499141/how-to-change-google-map-center-by-clicking-a-button/28500306).
 10. The code for the timeout function used for the paragraph to be displayed when the form sent either 
-successfully or unsuccessfully and also for the 404.html page was found [here](https://www.w3schools.com/jsref/met_win_settimeout.asp) 
+successfully or unsuccessfully was found [here](https://www.w3schools.com/jsref/met_win_settimeout.asp) 
 11. The code in the 404.html file that redirects the user back to the home page when the 404 page has loaded was found [here](https://stackoverflow.com/questions/49099509/if-404-error-redirect-to-pagenotfound-and-then-redirect-to-home-page).
 ### Content
 
