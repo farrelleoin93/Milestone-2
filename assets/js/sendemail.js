@@ -20,6 +20,7 @@ function sendMail(contactForm) {
             function (error) {
                 $("#failed").show();
                 function toggleDiv() {
+                    // set timeout code was found at https://www.w3schools.com/jsref/met_win_settimeout.asp
                     setTimeout(function () {
                         $("#failed").hide();
                     }, 5000);

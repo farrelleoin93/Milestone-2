@@ -325,7 +325,9 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 7. The code to remove the previous info window on the map was found [here](https://hashnode.com/post/google-maps-api-onclick-on-marker-close-infowindow-of-other-markers-ciou68dw708x33353les71nyi).
 8. The code to remove any markers from the map was found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove).
 9. The code to change the center of the map to the appropriate city was found [here](https://stackoverflow.com/questions/28499141/how-to-change-google-map-center-by-clicking-a-button/28500306).
-10. The code in the 404.html file that redirects the user back to the home page when the 404 page has loaded was found [here](https://stackoverflow.com/questions/49099509/if-404-error-redirect-to-pagenotfound-and-then-redirect-to-home-page).
+10. The code for the timeout function used for the paragraph to be displayed when the form sent either 
+successfully or unsuccessfully and also for the 404.html page was found [here](https://www.w3schools.com/jsref/met_win_settimeout.asp) 
+11. The code in the 404.html file that redirects the user back to the home page when the 404 page has loaded was found [here](https://stackoverflow.com/questions/49099509/if-404-error-redirect-to-pagenotfound-and-then-redirect-to-home-page).
 ### Content
 
 - The brief description of each city was found on [Lonely Planet](https://www.lonelyplanet.com/).
