@@ -190,21 +190,23 @@ Features that will be added in the future are:
 10. [Git](https://en.wikipedia.org/wiki/Git)
     - The version control system used for this project was Git.
 11. [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-    - Chrome DevTools was used to test the code for this website.
+    - Chrome DevTools was used to test out code before adding it to this website.
 12. [WebFormatter](https://webformatter.com/html) 
     - WebFormatter was used to format the html code.
 13. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
     - The Google Maps API was used for the map.
-14. [JSHint](https://jshint.com/)
-    - JSHint was used to test the JavaScript code.
+14. [Google Maps Places API](https://developers.google.com/maps/documentation/?_ga=2.115443780.374973529.1613150302-1283502560.1613150302&_gac=1.262726270.1613150308.CjwKCAiA65iBBhB-EiwAW253W5bOuSti1xQF4Vb3ITjKsKeajSBqWjDh7PXcOvOo2x2lkVd0SmmLcBoCv7sQAvD_BwE)
+    - The Google Maps Places API was used to get the locations of different places in each city.
 15. [Am I Responsive](http://ami.responsivedesign.is/) 
-    - Am I Responsive was used to see test how the website looked on different devices.
+    - Am I Responsive was used to see how the website looked on different devices.
 16. [Unsplash](https://unsplash.com/)
     - Unsplash was used to get images to use for the website.
 17. [Facebook](https://www.facebook.com/)
-    - Facebook was used to get the Image for The Beer 100 Garden in Hanoi with the permission of the owner of the bar.
+    - Facebook was used to get the image for The Beer 100 Garden in Hanoi with the permission of the owner of the bar.
 18. [Emailjs](https://www.emailjs.com/)
     - Emailjs was used to send the information added into the form to the owner of the website.
+19. [JSHint](https://jshint.com/)
+    - JSHint was used to test the JavaScript code.
 
 
 ### Resources
@@ -225,7 +227,7 @@ The following websites were used as learning resources throughout the building o
 can be seen [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-1.png) and [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-2.png).
 After I fixed the issues I passed index.html through validation service again and no errors or warnings appeared as can be seen [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/html-validator-3.png).
 
-2. I passed style.css through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and the results came back stating that there were no errors as can be seen [https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/css-validator.png].
+2. I passed style.css through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and the results came back stating that there were no errors as can be seen [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/css-validator.png).
 
 3. I passed all JavaScript files through the [JSHint Code Quality Tool](https://jshint.com/) and the results came 
 back declaring no errors.
@@ -308,6 +310,10 @@ user is also provided with a link to this section of the website in the navbar.
 
 4. Most of the images were not appearing in the live version of the website.
    - This was fixed by simply adding "." to the start of the path to the image.
+
+5. After I first passed index.html through the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) 
+I got an error saying the a **button** element must not appear as the descendent of an **a** element.
+   - This was solved by removing the **a** element and using an onclick function instead.
 
 ## <a name="deployment">Deployment</a>
 
