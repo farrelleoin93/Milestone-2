@@ -131,7 +131,7 @@ scrolling up to pick a different option.
 
 5. I decided to only have three different choices for "Our Top 3 Picks" instead of four as I felt it looked better.
 
-6. I placed the social icons on top of the copyright info in the center of the footer due to feedback I recieved 
+6. I placed the social icons on top of the copyright information in the center of the footer due to feedback I recieved 
 from a couple of people that tested my website for me. 
 
 
@@ -140,11 +140,12 @@ from a couple of people that tested my website for me.
 ---
 The main features of this website are:
 - an attractive design.
-- a navigation bar that the user understands how to use even on their first visit that brings them to the appropriate part of the website.
-- a google maps window that shows the user the locations of different places that they might like to visit.
+- a navigation bar that the user understands how to use even on their first visit to the website 
+and that brings them to the appropriate part of the website.
+- a Google maps window that shows the user the locations of different places that they might like to visit.
 - a top three picks section for each city.
 - a working contact us form so that the users can ask questions and give feedback about the website.
-- links to social platforms.
+- links to social network platforms.
 
 Features that will be added in the future are:
 - information about the weather in each city.
@@ -194,6 +195,17 @@ Features that will be added in the future are:
     - WebFormatter was used to format the html code.
 13. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
     - The Google Maps API was used for the map.
+14. [JSHint](https://jshint.com/)
+    - JSHint was used to test the JavaScript code.
+15. [Am I Responsive](http://ami.responsivedesign.is/) 
+    - Am I Responsive was used to see test how the website looked on different devices.
+16. [Unsplash](https://unsplash.com/)
+    - Unsplash was used to get images to use for the website.
+17. [Facebook](https://www.facebook.com/)
+    - Facebook was used to get the Image for The Beer 100 Garden in Hanoi with the permission of the owner of the bar.
+18. [Emailjs](https://www.emailjs.com/)
+    - Emailjs was used to send the information added into the form to the owner of the website.
+
 
 ### Resources
 The following websites were used as learning resources throughout the building of this project:
