@@ -8,22 +8,22 @@ let infowindow;
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
         zoom: 13,
-        center: new google.maps.LatLng(21.038598, 105.830440),
-    })
+        center: new google.maps.LatLng(21.038598, 105.83044),
+    });
 }
 
 // Code to change center of the map was found at https://stackoverflow.com/questions/28499141/how-to-change-google-map-center-by-clicking-a-button/28500306
 function newLocation(newLat, newLng) {
     map.setCenter({
         lat: newLat,
-        lng: newLng
+        lng: newLng,
     });
 }
 
 //Setting Location with jQuery
 $(document).ready(function () {
     $("#hanoi-info").click(function () {
-        newLocation(21.038598, 105.830440);
+        newLocation(21.038598, 105.83044);
     });
 
     $("#sapa-info").click(function () {
@@ -41,8 +41,8 @@ function displayLocationsOfType(locationTypes) {
         location: map.getCenter(),
         radius: 8047,
         types: locationTypes,
-        zoom: map.setZoom(13)
-    }
+        zoom: map.setZoom(13),
+    };
     var service = new google.maps.places.PlacesService(map);
     service.nearbySearch(request, callback);
 }
@@ -64,8 +64,8 @@ function createMarker(place) {
     var marker = new google.maps.Marker({
         map: map,
         position: place.geometry.location,
-        title: place.name
-    })
+        title: place.name,
+    });
     // Code to set infowindow was found at https://developers.google.com/maps/documentation/javascript/infowindows
     let infowindow = new google.maps.InfoWindow();
     google.maps.event.addListener(marker, "click", function () {
@@ -76,7 +76,7 @@ function createMarker(place) {
         infowindow.open(map, marker);
         lastinfowindow = infowindow;
     });
-    markers.push(marker)
+    markers.push(marker);
 }
 
 //Code to remove markers from map was found at https://developers.google.com/maps/documentation/javascript/examples/marker-remove
@@ -122,7 +122,7 @@ $(document).ready(function () {
             map,
             title: "Hanoi Cooking Centre",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
@@ -135,11 +135,11 @@ $(document).ready(function () {
     $("#beer100").click(function () {
         clearMarkers();
         marker = new google.maps.Marker({
-            position: { lat: 21.067893149405588,  lng: 105.82892249609742 },
+            position: { lat: 21.067893149405588, lng: 105.82892249609742 },
             map,
             title: "Hanoi Local Tour",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
@@ -156,7 +156,7 @@ $(document).ready(function () {
             map,
             title: "Hanoi Street Food Tour",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
@@ -173,7 +173,7 @@ $(document).ready(function () {
             map,
             title: "Fansipan Cable Car",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
@@ -183,14 +183,14 @@ $(document).ready(function () {
             infowindow.open(map, marker);
         });
     });
-     $("#sapa-market").click(function () {
+    $("#sapa-market").click(function () {
         clearMarkers();
         marker = new google.maps.Marker({
             position: { lat: 22.33899354686653, lng: 103.85186066065194 },
             map,
             title: "Sapa Market",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
@@ -207,7 +207,7 @@ $(document).ready(function () {
             map,
             title: "Sapa Trekking Tour",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
@@ -224,7 +224,7 @@ $(document).ready(function () {
             map,
             title: "Marble Mountain",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
@@ -241,7 +241,7 @@ $(document).ready(function () {
             map,
             title: "Hoi An Day Tour",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
@@ -258,7 +258,7 @@ $(document).ready(function () {
             map,
             title: "Japanese Bridge",
         });
-        markers.push(marker)
+        markers.push(marker);
         map.setZoom(15);
         map.setCenter(marker.getPosition());
         google.maps.event.addListener(marker, "click", function () {
