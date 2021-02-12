@@ -3,6 +3,8 @@ information about different places in Vietnam.
 
 You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/).
 
+![Responsiveness](assets/docs/responsive.png)
+
 # UX
 ## Contents
 
