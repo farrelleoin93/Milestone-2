@@ -209,7 +209,10 @@ After I fixed the issues I passed index.html through validation service again an
 
 2. I passed style.css through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and the results came back stating that there were no errors as can be seen [https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/css-validator.png].
 
-3. The lighthouse tool in was used in devTools. The first time the lighthouse results came back the performance was at 67%. This was due to the images used for 
+3. I passed all JavaScript files through the [JSHint Code Quality Tool](https://jshint.com/) and the results came 
+back declaring no errors.
+
+4. The lighthouse tool in was used in devTools. The first time the lighthouse results came back the performance was at 67%. This was due to the images used for 
 the Hanoi, Sapa and Hoi An cards being too big. This was rectified by downloading the same images again but smaller versions. I then used Tiny png to compress 
 these images. The results for the latest Lighthouse report can be found [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/lighthouse.png). 
 
