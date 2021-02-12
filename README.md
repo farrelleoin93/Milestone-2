@@ -211,6 +211,7 @@ these images. The results for the latest Lighthouse report can be found [here](h
 while also hiding the unclicked cities.
 - On each city section the different choices icons were clicked (bars, cafes etc) and verified that for the relevant 
 loctions appeared on the map.
+- When the mouse was hovered over the choices icons (bars, cafes etc) each icon grow to a larger size.
 - When a different one if the choices icons was clicked the previous markers disappeared and were replaced by new markers 
 at the relevant locations.
 - Each marker was clicked and it was confirmed that an info window appeared displaying the name of the establishment. 
@@ -316,7 +317,7 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 ### Code 
 
 1. [Bootstrap](https://getbootstrap.com/) - The code for the navbar was found [here](https://getbootstrap.com/docs/4.0/components/navbar/).
-2. The code for the onclick function for th buttons was found [here](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
+2. The code for the onclick function for the buttons was found [here](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
 3. The code for the map were found [here](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-css).
 4. The code for the form was taken from my first milestone project and can be found [here](https://github.com/farrelleoin93/Milestone-1-Recipe-Site/blob/master/contact.html).
 5. The code used to email the form was found [here](https://www.emailjs.com/docs/).
