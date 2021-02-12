@@ -5,6 +5,8 @@ You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/
 
 ![Responsiveness](assets/docs/responsive.png)
 
+**To open any links in this document in a new tab press `CTRL + Click`.**
+
 # UX
 ## Contents
 
@@ -350,4 +352,13 @@ the exception of The Beer 100 Garden which was found at [Choa Hanoi](https://cha
 
 ## <a name="acknowledgements">Acknowledgements</a>
 
-- 
+- I would like to thank mentor Akshat Garg for all his invaluable advice during my three mentor sessions.
+- I would like to thank Nmglasper for testing my website and for providing me with feedback on my post in 
+#peer-code-review on Slack.
+- I would also like to thank Michael for Tutor support for helping me with some issues that I had with 
+the Google Places API.
+- I would also like to thank Anna Greaves for all the resources she has supplied the Code Institute Slack community 
+particularly regarding the README.md file.
+
+## Contact
+If you have any questions regarding this project feel free to contact me at farrelleoin93@gmail.com.
