@@ -28,6 +28,7 @@ You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## <a name="ux">UX</a>
 
@@ -39,7 +40,7 @@ You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/
 2. As a user, I want to be able to easily navigate through the site even on my first visit.
 3. As a user, I want to be able to find interesting places to visit.
 4. As a user, I want to be able to easily find things to do and places to eat in each place.
-5. As a user, I want to be able to see useful information about flights to the places in the features on the website or else information about weather in these places.
+5. As a user, I want to be able to see useful information about flights to the places that feature on the website or else information about weather in these places.
 6. As a user, I want to be able to see where all the places mentioned on the website are.
 7. As a user, I want to be able to easily contact the owner of the website.
 
@@ -49,7 +50,7 @@ You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/
 1. As a site owner, I want to be able to inspire people to go and travel and experience a different culture.
 2. As a site owner, I want to be able to supply the visitors of this site with fun and interesting things to do as well as nice places to eat.
 3. As a site owner, I want to to supply users with a working map that shows them where different places are located in the appropriate city, for example, bars, cafes etc.
-4. As a site owner, I want people to be able to contact me if they have any questions they want to ask or information about their travels that they would like to share. 
+4. As a site owner, I want people to be able to contact me if they have any questions that they want to ask or if they have information about their travels that they would like to share. 
 5. As a site owner, I want to increase the volume of people that visit this website over time.
 
 
@@ -63,7 +64,7 @@ You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/
 - The user should be able to clearly navigate through the website even on their first visit.
 - The user should be provided with helpful information about different places in Vietnam.
 - The user should be able to view where these places are located on a map.
-- The site should have a working contact form.
+- The user should be able to contact the owner of the website.
 
 
 ### Expectations
@@ -72,6 +73,7 @@ You can see the live website [here](https://farrelleoin93.github.io/Milestone-2/
 - The website should be informative.
 - The website should have a working navbar that leads them to the area of the website that they want.
 - The website should have pictures and information that will accurately show and describe different places in Vietnam.
+- The site should have a working contact form.
 
 ## <a name="design-choices">Design Choices</a>
 
@@ -83,11 +85,11 @@ I had originally planned on using [Lora](https://fonts.google.com/specimen/Lora?
 headings, however, I recieved some feedback from a couple of friends that something more like Roboto Mono might look better.
 After testing out a couple of other fonts I decided that my friends were right so I decided to use [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?preview.text_type=custom) for all the 
 headings throughout the site with a font weight of 600 to make them stand out
-slightly more than the rest of the text. I used [Roboto](https://fonts.google.com/specimen/Roboto?query=rob) for the paragraghs of the website.
+slightly more than the rest of the text. I used [Roboto](https://fonts.google.com/specimen/Roboto?query=rob) for the paragraphs of the website.
 
 ### Colours
 
-- The colours that I used for this website are orange(#ff6600), a lighter (#f8b278), grey(#5b5b61), a light grey (#c5c5c5) and white(#fff). The dark grey is used for the footer while the light 
+- The colours that I used for this website are orange(#ff6600), a lighter orange(#f8b278), grey(#5b5b61), a light grey (#c5c5c5) and white(#fff). The dark grey is used for the footer while the light 
 grey is used for the backgound of the form section. For the font in the navbar I chose to use the light orange (#f8b278) as 
 I felt it worked well with the grey of the hero image. For the buttons I used the darker orange (#ff6600) as I feel 
 that it is a nice warm colour that works well with the other colours used for the website. The background of the website is white.
@@ -114,16 +116,16 @@ The wireframes for the actual website can be found at the following links:
 #### Changes to Original Wireframes
 
 1. In the original wireframes I had planned on having a search bar in the center of the hero image for the user to 
-search for a place in Vietnam, however, as there are currently only three cities to chosoe from this seemed unnecessary. 
+search for a place in Vietnam, however, as there are currently only three cities to choose from this seemed unnecessary. 
 I decided to replace this feature with a brief description about the website and a button that brought the user to the 
 section of the website where they could pick a city.
 
 2. As there are only three cities to choose from I decided the remove the horizontal scrolling feature.
 
-3. I decided to not add in a picture at the start of each cities section. I have plans to add a 
+3. I decided not to add in a picture at the start of each cities section. I have plans to add a 
 gallery at a later stage to provide users with images of each place.
 
-4. I decided to move the map to in-between the options section ("Bars", "Cafes" etc) and the "Out Top3 Picks" section 
+4. I decided to move the map to in-between the options section ("Bars", "Cafes" etc) and the "Our Top3 Picks" section 
 as I felt that it was better to have the map closer to the options section so that the user would not have to keep 
 scrolling up to pick a different option.
 
@@ -360,5 +362,5 @@ the Google Places API.
 - I would also like to thank Anna Greaves for all the resources she has supplied the Code Institute Slack community 
 particularly regarding the README.md file.
 
-## Contact
+## <a name="contact">Contact</a>
 If you have any questions regarding this project feel free to contact me at farrelleoin93@gmail.com.
