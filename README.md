@@ -237,27 +237,27 @@ the Hanoi, Sapa and Hoi An cards being too big. This was rectified by downloadin
 these images. The results for the latest Lighthouse report can be found [here](https://github.com/farrelleoin93/Milestone-2/blob/master/assets/docs/lighthouse.png). 
 
 #### Manual Testing 
-- All navigation bar links were clicked and verified that they brought you to the correct part of the website.
-- The "Pick a City" button was clicked and it was verified that the it brought you to the "Cities" section.
+- All navigation bar links were clicked and verified that they brought the user to the correct part of the website.
+- The "Pick a City" button was clicked and it was verified that it brought the user to the "Cities" section.
 - Each of the different city cards were clicked and it was verified that the correct city section appeared on the page 
 while also hiding the unclicked cities.
-- On each city section the different choices icons were clicked (bars, cafes etc) and verified that for the relevant 
+- On each city section the different choices icons were clicked (bars, cafes etc) and verified that the relevant 
 loctions appeared on the map.
 - When the mouse was hovered over the choices icons (bars, cafes etc) each icon grow to a larger size.
 - When a different one if the choices icons was clicked the previous markers disappeared and were replaced by new markers 
 at the relevant locations.
-- Each marker was clicked and it was confirmed that an info window appeared displaying the name of the establishment. 
-It was also confirmed that when another marker was clicked the info window on the previously clicked marker disappeared.
+- Each marker was clicked and it was confirmed that an information window appeared displaying the name of the establishment. 
+It was also confirmed that when another marker was clicked the information window on the previously clicked marker disappeared.
 - Each of the "Show on map" buttons in the various "Our Top 3 Picks" sections were clicked and verified that 
-the page redirected to the map and the location of the relevant location was positioned at the center of the map. It 
+the page redirected to the map and the location of the relevant establishment was positioned at the center of the map. It 
 was also confirmed that the map zoomed in closer on the marker.
 - The "Contact Us" form was filled out and it was confirmed that the paragraph displaying a confirmation message appeared 
 briefly before disappearing again. 
-- I then tried to send the form while have having one of the fields empty to confirm that the user was prompted 
+- I then tried to send the form while having one of the fields empty to confirm that the user was prompted 
 with a message to fill in the field. This was repeated to check that it was the same for the "Name", "Email" and "Message" fields.
 - Each of the social links icons were clicked and it was verified that another tab opened on the relevant website.
 - The website was tested in tablet format to make sure that the information on the hero image was positioned in 
-the center of the screen and that the choices icon (bars, cafes etc) were now positioned with the first three 
+the center of the screen and that the choices icons (bars, cafes etc) were now positioned with the first three 
 icons above the second two icons. All worked as expected.
 - The website was then tested on the following mobile phone devices: iPhone 7/8/X, Samsung Galaxy s10/s20, 
 Huawei p20/p30/p30 pro. This was to make sure that along with the changes that were made to the website in tablet 
@@ -267,7 +267,7 @@ Also the form widened to take up almost the full width of the viewport. This all
 
 #### Testing User Stories
 
-1. *As a user, I want to understand what the site is for.* - This is achieved by the paragragh on the hero image which gives a brief description of the site. 
+1. *As a user, I want to understand what the site is for.* - This is achieved by the paragraph on the hero image which gives a brief description of the site. 
 The name *Discover Vietnam* also gives the user a hint about what kind of website it is.
 
 2. *As a user, I want to be able to easily navigate through the site even on my first visit.* - I feel that this is achieved by a clear and 
