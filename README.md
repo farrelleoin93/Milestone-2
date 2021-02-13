@@ -271,23 +271,23 @@ Also the form widened to take up almost the full width of the viewport. This all
 The name *Discover Vietnam* also gives the user a hint about what kind of website it is.
 
 2. *As a user, I want to be able to easily navigate through the site even on my first visit.* - I feel that this is achieved by a clear and 
-descriptive nav bar which brings the user to the desired part of the website. 
+descriptive navigation bar which brings the user to the desired part of the website. 
 
-3. *As a user, I want to be able to find interesting places to visit.* This is achieved by the website providing useful information about three different
+3. *As a user, I want to be able to find interesting places to visit.* - This is achieved by the website providing useful information about three different
  cities in Vietnam. The website also shows the user different places for them to visit in each city.
 
 4. *As a user, I want to be able to easily find things to do and places to eat in each place.* - This is achieved by providing a working google maps section 
 which shows markers for different types of places in each city e.g "Bars", "Cafes" etc. The website also provides a "Top 3 Picks" 
-section which gives the a brief descriptions of three different places in each city.
+section which gives the user a brief descriptions of three different places in each city.
 
-5. *As a user, I want to be able to see useful information about flights to the places in the features on the website or else information about weather in these places.* - 
-The website does not currently provide the useer with this feature, however, this feature will be added to the website iin the future.
+5. *As a user, I want to be able to see useful information about flights to the places that feature on the website or else information about weather in these places.* - 
+The website does not currently provide the user with this feature, however, this feature will be added to the website in the future.
 
 6. *As a user, I want to be able to see where all the places mentioned on the website are.* - This is achieved by markers appearing on the map showing the location of all 
 the different places in each city that the user might want to visit.
 
 7. *As a user, I want to be able to easily contact the owner of the website.* - This is achieved by the working form located at the end of the website. The 
-user is also provided with a link to this section of the website in the navbar.
+user is also provided with a link to this section of the website in the navigation bar.
 
 
 ## <a name="bugs">Bugs</a>
@@ -354,10 +354,10 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 
 1. [Bootstrap](https://getbootstrap.com/) - The code for the navbar was found [here](https://getbootstrap.com/docs/4.0/components/navbar/).
 2. The code for the onclick function for the buttons was found [here](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
-3. The code for the map were found [here](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-css).
+3. The code for the map was found [here](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-css).
 4. The code for the form was taken from my first milestone project and can be found [here](https://github.com/farrelleoin93/Milestone-1-Recipe-Site/blob/master/contact.html).
 5. The code used to email the form was found [here](https://www.emailjs.com/docs/).
-6. The code for the info windows on map was found [here](https://developers.google.com/maps/documentation/javascript/infowindows).
+6. The code for the info windows on the map was found [here](https://developers.google.com/maps/documentation/javascript/infowindows).
 7. The code to remove the previous info window on the map was found [here](https://hashnode.com/post/google-maps-api-onclick-on-marker-close-infowindow-of-other-markers-ciou68dw708x33353les71nyi).
 8. The code to remove any markers from the map was found [here](https://developers.google.com/maps/documentation/javascript/examples/marker-remove).
 9. The code to change the center of the map to the appropriate city was found [here](https://stackoverflow.com/questions/28499141/how-to-change-google-map-center-by-clicking-a-button/28500306).
@@ -375,7 +375,7 @@ the exception of The Beer 100 Garden which was found at [Choa Hanoi](https://cha
 - I would like to thank mentor Akshat Garg for all his invaluable advice during my three mentor sessions.
 - I would like to thank Nmglasper for testing my website and for providing me with feedback on my post in 
 #peer-code-review on Slack.
-- I would also like to thank Michael for Tutor support for helping me with some issues that I had with 
+- I would also like to thank Michael from Tutor support for helping me with some issues that I had with 
 the Google Places API.
 - I would also like to thank Anna Greaves for all the resources she has supplied the Code Institute Slack community 
 particularly regarding the README.md file.
