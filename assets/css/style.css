@@ -272,6 +272,8 @@ h2 {
     left: 0;
     right: 0;
     text-align: center;
+    height: 40px;
+    width: 147px;
 }
 
 .card-option h3 {
