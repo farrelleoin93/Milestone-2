@@ -272,23 +272,23 @@ The name *Discover Vietnam* also gives the user a hint about what kind of websit
 
 2. *As a user, I want to be able to easily navigate through the site even on my first visit.* - I feel that this is achieved by a clear and 
 descriptive navigation bar which brings the user to the desired part of the website. 
-
+![Homepage](assets/images/user-stories-images/homepage.png)
 3. *As a user, I want to be able to find interesting places to visit.* - This is achieved by the website providing useful information about three different
  cities in Vietnam. The website also shows the user different places for them to visit in each city.
-
+![Cities](assets/images/user-stories-images/cities.png)
 4. *As a user, I want to be able to easily find things to do and places to eat in each place.* - This is achieved by providing a working google maps section 
 which shows markers for different types of places in each city e.g "Bars", "Cafes" etc. The website also provides a "Top 3 Picks" 
 section which gives the user a brief descriptions of three different places in each city.
-
+![Options](assets/images/user-stories-images/options.png)
 5. *As a user, I want to be able to see useful information about flights to the places that feature on the website or else information about weather in these places.* - 
 The website does not currently provide the user with this feature, however, this feature will be added to the website in the future.
 
 6. *As a user, I want to be able to see where all the places mentioned on the website are.* - This is achieved by markers appearing on the map showing the location of all 
 the different places in each city that the user might want to visit.
-
+![Map](assets/images/user-stories-images/map.png)
 7. *As a user, I want to be able to easily contact the owner of the website.* - This is achieved by the working form located at the end of the website. The 
 user is also provided with a link to this section of the website in the navigation bar.
-
+![Form](assets/images/user-stories-images/form.png)
 
 ## <a name="bugs">Bugs</a>
 
